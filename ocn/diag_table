@@ -1,0 +1,727 @@
+"ACCESS-ESM_CMIP6"
+0001 01 01 0 0 0
+## output files
+#"ocean_daily",                24,  "hours",  1, "days", "time",
+"ocean_month",                 1,  "months", 1, "days", "time",
+"ocean_scalar",                1,  "months", 1, "days", "time"
+"ocean_bgc", 1,  "months", 1, "days", "time",
+"ocean_bgc_mth", 1,  "months", 1, "days", "time",
+"ocean_bgc_ann", 12,  "months", 1, "days", "time",
+"ocean"      ,                12,  "months", 1, "days", "time",
+#
+#===========================
+# OCEAN DIAGNOSTICS (MOM5)
+#===========================
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.1 and related GFDL fields
+# all of these fields are time independent 
+#
+# Rosetta stone: ht=sea_floor_depth_below_geoid
+ "ocean_model","ht","ht"   ,"ocean_month","all",.false.,"none",2
+ "ocean_model","hu","hu"   ,"ocean_month","all",.false.,"none",2
+#
+# geographical longitude and latitude of corner and tracer points (ocean_month)
+ "ocean_model","geolat_c","geolat_c"  ,"ocean_month","all",.false.,"none",2
+ "ocean_model","geolon_c","geolon_c"  ,"ocean_month","all",.false.,"none",2
+ "ocean_model","geolat_t","geolat_t"  ,"ocean_month","all",.false.,"none",2
+ "ocean_model","geolon_t","geolon_t"  ,"ocean_month","all",.false.,"none",2
+#
+# geographical longitude and latitude of corner and tracer points (ocean_daily)
+# "ocean_model","geolat_c","geolat_c","ocean_daily","all",.false.,"none",2
+# "ocean_model","geolon_c","geolon_c","ocean_daily","all",.false.,"none",2
+# "ocean_model","geolat_t","geolat_t","ocean_daily","all",.false.,"none",2
+# "ocean_model","geolon_t","geolon_t","ocean_daily","all",.false.,"none",2
+#
+# horizontal area of tracer and velocity grid cells
+ "ocean_model","area_t","area_t" ,"ocean_month","all",.false.,"none",2
+ "ocean_model","area_u","area_u" ,"ocean_month","all",.false.,"none",2
+#
+# number of vertical grid cells in tracer and velocity cells
+ "ocean_model","kmt","kmt"  ,"ocean_month","all",.false.,"none",2
+ "ocean_model","kmu","kmu"  ,"ocean_month","all",.false.,"none",2
+#
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.2
+# all of these fields are time dependent 
+#
+# Rosetta stone: total_mass_seawater=sea_water_mass 
+ "ocean_model","total_mass_seawater","total_mass_seawater" ,"ocean_scalar","all",.true.,"none",2
+#
+# Rosetta stone: pbot_t=sea_water_pressure_at_sea_floor 
+ "ocean_model","pbot_t","pbot_t" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: patm_t=sea_water_pressure_at_sea_water_surface 
+ "ocean_model","patm_t","patm_t" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: total_volume_seawater=sea_water_volume 
+ "ocean_model","total_volume_seawater","total_volume_seawater" ,"ocean_scalar","all",.true.,"none",2
+#
+# Rosetta stone: sea_level=sea_surface_height_above_geoid 
+ "ocean_model","sea_level","sea_level" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: sea_level_sq=squared_square_of_sea_surface_height_above_geoid 
+ "ocean_model","sea_level_sq","sea_level_sq" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: eta_global is required to get global_average_sea_level_change
+# since the CM2M simulations use a Boussinesq ocean model.  
+# global_average_sea_level_change = eta_global + global_average_steric_sea_level_change
+ "ocean_model","eta_global","eta_global" ,"ocean_scalar","all",.true.,"none",2
+#
+# Rosetta stone: eta_adjust=global_average_steric_sea_level_change
+# Also, can check that this eta_ajust is approximately equal to the same
+# diagnostic computed using time averaged rho and grid cell volume, as well
+# as the global averaged density.  pbot_adjust is useful to adjust the
+# bottom pressure for spurious mass sources in Boussinesq fluids. 
+ "ocean_model","eta_adjust","eta_adjust" ,"ocean_scalar","all",.true.,"none",2
+ "ocean_model","rhobarz_global","rhobarz_global"  ,"ocean_scalar","all",.true.,"none",2
+ "ocean_model","rho","rho" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","pbot_adjust","pbot_adjust" ,"ocean_scalar","all",.true.,"none",2
+#
+# Rosetta stone: rho_dzt=sea_water_mass_per_unit_area
+ "ocean_model","rho_dzt","rho_dzt" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: dht=cell_thickness
+ "ocean_model","dzt","dht" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: temp=sea_water_potential_temperature
+ "ocean_model","pot_temp","pot_temp" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: temp_global_ave=sea_water_potential_temperature (global ave)
+"ocean_model","temp_global_ave","temp_global_ave" ,"ocean_scalar","all",.true.,"none",2
+#
+# Rosetta stone: sst=sea_surface_temperature (monthly)
+ "ocean_model","surface_temp","sst"  ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: sst=sea_surface_temperature  (daily)
+# "ocean_model","surface_temp","sst"  ,"ocean_daily","all",.true.,"none",2
+#
+# Rosetta stone: sst_sq=square_of_sea_surface_temperature (monthly)
+ "ocean_model","squared_surface_temp","sst_sq"  ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: sst_sq=square_of_sea_surface_temperature (daily)
+# "ocean_model","squared_surface_temp","sst_sq"  ,"ocean_daily","all",.true.,"none",2
+#
+# Rosetta stone: salt=sea_water_salinity
+ "ocean_model","salt","salt" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: salt_global_ave=sea_water_salinity (global ave)
+"ocean_model","salt_global_ave","salt_global_ave" ,"ocean_scalar","all",.true.,"none",2
+#
+# Rosetta stone: surface_salt=sea_surface_salinity
+ "ocean_model","surface_salt","sss" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: pot_rho_0=sea_water_potential_density 
+ "ocean_model","pot_rho_0","pot_rho_0" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: age_global=sea_water_age_since_surface_contact
+ "ocean_model","age_global","age_global" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: cfc_11=moles_per_unit_mass_of_cfc11_in_sea_water
+# "ocean_model","cfc_11","cfc_11" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: psiu=ocean_barotropic_mass_streamfunction
+ "ocean_model","psiu","psiu" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: mld=ocean_mixed_layer_thickness_defined_by_sigma_t
+ "ocean_model","mld","mld" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: mld_sq=square_of_ocean_mixed_layer_thickness_defined_by_sigma_t
+ "ocean_model","mld_sq","mld_sq" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: hblt=ocean_mixed_layer_thickness_defined_by_mixing_scheme (daily max)
+# "ocean_model","hblt","hblt_max" ,"ocean_daily","all",  max ,"none",2
+#
+# Rosetta stone: hblt=ocean_mixed_layer_thickness_defined_by_mixing_scheme (monthly max)
+ "ocean_model","hblt","hblt_max" ,"ocean_month","all",   max,"none",2
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.3
+# all of these fields are time dependent 
+#
+# Rosetta stone: u=sea_water_x_velocity
+ "ocean_model","u","u"                       ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: v=sea_water_y_velocity
+ "ocean_model","v","v"                       ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: tz_trans=upward_ocean_mass_transport
+ "ocean_model","tz_trans","tz_trans" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: tz_trans_sq=square_of_upward_ocean_mass_transport
+ "ocean_model","tz_trans_sq","tz_trans_sq" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: tx_trans=ocean_x_mass_transport
+ "ocean_model","tx_trans","tx_trans" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: ty_trans=ocean_y_mass_transport
+ "ocean_model","ty_trans","ty_trans" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: ocean_meridional_overturning_mass_streamfunction
+#                ocean_y_overturning_mass_streamfunction
+#                ocean_meridional_overturning_mass_streamfunction_due_to_bolus_advection
+#                ocean_y_overturning_mass_streamfunction_due_to_bolus_advection
+# are derived from the following fields 
+ "ocean_model","tx_trans_rho","tx_trans_rho"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","ty_trans_rho","ty_trans_rho"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","tx_trans_gm","tx_trans_gm"           ,"ocean_month","all",.true.,"none",2
+ "ocean_model","ty_trans_gm","ty_trans_gm"           ,"ocean_month","all",.true.,"none",2
+ "ocean_model","tx_trans_rho_gm","tx_trans_rho_gm"   ,"ocean_month","all",.true.,"none",2
+ "ocean_model","ty_trans_rho_gm","ty_trans_rho_gm"   ,"ocean_month","all",.true.,"none",2
+ "ocean_model","tx_trans_submeso","tx_trans_submeso" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","ty_trans_submeso","ty_trans_submeso" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: northward_ocean_heat_transport
+#                ocean_heat_x_transport
+#                ocean_heat_y_transport
+#                northward_ocean_heat_transport_due_to_bolus_advection
+#                northward_ocean_heat_transport_due_to_diffusion
+#                ocean_heat_x_transport_due_to_bolus_advection
+#                ocean_heat_x_transport_due_to_diffusion
+#                ocean_heat_y_transport_due_to_bolus_advection
+#                ocean_heat_y_transport_due_to_diffusion
+# are derived from the following fields 
+ "ocean_model","temp_adv_flux_x_int_z","temp_adv_flux_x_int_z"        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_adv_flux_y_int_z","temp_adv_flux_y_int_z"        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_xflux_neutral_int_z","temp_xflux_neutral_int_z"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_yflux_neutral_int_z","temp_yflux_neutral_int_z"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_xflux_ndiffuse_int_z","temp_xflux_ndiffuse_int_z" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_yflux_ndiffuse_int_z","temp_yflux_ndiffuse_int_z" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_xflux_gm_modes_int_z","temp_xflux_gm_modes_int_z" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_yflux_gm_modes_int_z","temp_yflux_gm_modes_int_z" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_sigma_diff_xflux_int_z","temp_xflux_sigma"       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_sigma_diff_yflux_int_z","temp_yflux_sigma"       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_yflux_submeso_int_z","temp_yflux_submeso_int_z"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_xflux_submeso_int_z","temp_xflux_submeso_int_z"  ,"ocean_month","all",.true.,"none",2
+#
+#
+# Rosetta stone: northward_ocean_heat_transport_due_to_gyre
+#                northward_ocean_heat_transport_due_to_overturning
+#                northward_ocean_salt_transport_due_to_gyre
+#                northward_ocean_heat_transport_due_to_overturning
+# for the resolved advective transport are derived from the following fields 
+ "ocean_model","temp_merid_flux_advect_global","temp_merid_flux_advect_global"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_over_global","temp_merid_flux_over_global"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_gyre_global","temp_merid_flux_gyre_global"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_advect_global","salt_merid_flux_advect_global"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_over_global","salt_merid_flux_over_global"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_gyre_global","salt_merid_flux_gyre_global"      ,"ocean_month","all",.true.,"none",2
+#
+ "ocean_model","temp_merid_flux_advect_southern","temp_merid_flux_advect_southern"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_over_southern","temp_merid_flux_over_southern"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_gyre_southern","temp_merid_flux_gyre_southern"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_advect_southern","salt_merid_flux_advect_southern"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_over_southern","salt_merid_flux_over_southern"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_gyre_southern","salt_merid_flux_gyre_southern"      ,"ocean_month","all",.true.,"none",2
+#
+ "ocean_model","temp_merid_flux_advect_atlantic","temp_merid_flux_advect_atlantic"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_over_atlantic","temp_merid_flux_over_atlantic"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_gyre_atlantic","temp_merid_flux_gyre_atlantic"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_advect_atlantic","salt_merid_flux_advect_atlantic"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_over_atlantic","salt_merid_flux_over_atlantic"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_gyre_atlantic","salt_merid_flux_gyre_atlantic"      ,"ocean_month","all",.true.,"none",2
+# 
+ "ocean_model","temp_merid_flux_advect_pacific","temp_merid_flux_advect_pacific"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_over_pacific","temp_merid_flux_over_pacific"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_gyre_pacific","temp_merid_flux_gyre_pacific"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_advect_pacific","salt_merid_flux_advect_pacific"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_over_pacific","salt_merid_flux_over_pacific"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_gyre_pacific","salt_merid_flux_gyre_pacific"      ,"ocean_month","all",.true.,"none",2
+#
+ "ocean_model","temp_merid_flux_advect_arctic","temp_merid_flux_advect_arctic"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_over_arctic","temp_merid_flux_over_arctic"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_gyre_arctic","temp_merid_flux_gyre_arctic"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_advect_arctic","salt_merid_flux_advect_arctic"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_over_arctic","salt_merid_flux_over_arctic"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_gyre_arctic","salt_merid_flux_gyre_arctic"      ,"ocean_month","all",.true.,"none",2
+#
+ "ocean_model","temp_merid_flux_advect_indian","temp_merid_flux_advect_indian"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_over_indian","temp_merid_flux_over_indian"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_merid_flux_gyre_indian","temp_merid_flux_gyre_indian"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_advect_indian","salt_merid_flux_advect_indian"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_over_indian","salt_merid_flux_over_indian"      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_merid_flux_gyre_indian","salt_merid_flux_gyre_indian"      ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.4
+# all of these fields are time dependent scalar fields 
+# they are all derived as a post-processing step using the
+# vertically integrated mass transport contained in tx_trans and ty_trans 
+#
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.5: surface water fluxes 
+# all of these fields are time dependent two-dimensional fields
+#
+# Rosetta stone: lprec=rainfall_flux
+ "ocean_model","lprec","lprec" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: fprec=snowfall_flux
+ "ocean_model","fprec","fprec" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: evap=water_evaporation_flux
+ "ocean_model","evap","evap" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: runoff=water_flux_into_sea_water_from_rivers
+ "ocean_model","runoff","runoff" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: ice_calving=water_flux_into_sea_water_from_icebergs
+# "ocean_model","ice_calving","ice_calving" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: melt=water_flux_into_sea_water_due_to_sea_ice_thermodynamics
+ "ocean_model","melt","melt" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: pme_river=water_flux_into_sea_water
+#                pme_river=water_flux_into_sea_water_without_flux_correction
+ "ocean_model","pme_river","pme_river" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: water_flux_correction = 0.0
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.6: surface salt fluxes 
+# all of these fields are time dependent two-dimensional fields 
+#
+# Rosetta stone: all "virtual_salt_flux" fields are zero 
+#
+# Rosetta stone: sfc_salt_flux_ice=downward_sea_ice_basal_salt_flux
+ "ocean_model","sfc_salt_flux_ice","sfc_salt_flux_ice" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: sfc_salt_flux_runoff=salt_flux_into_sea_water_from_rivers
+ "ocean_model","sfc_salt_flux_runoff","sfc_salt_flux_runoff" ,"ocean_month","all",.true.,"none",2
+#
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.7: surface heat fluxes 
+# all of these fields are time dependent two-dimensional fields 
+#
+# Rosetta stone: geo_heat=upward_geothermal_heat_flux_at_sea_floor
+#"ocean_model","geo_heat","geo_heat" ,"ocean_month","all",.false.,"none",2
+#
+# Rosetta stone: sfc_hflux_from_water_prec=temperature_flux_due_to_rainfall_expressed_as_heat_flux_into_sea_water
+ "ocean_model","sfc_hflux_from_water_prec","sfc_hflux_from_water_prec" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: sfc_hflux_from_water_evap=temperature_flux_due_to_evaporation_expressed_as_heat_flux_into_sea_water
+ "ocean_model","sfc_hflux_from_water_evap","sfc_hflux_from_water_evap" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: sfc_hflux_from_runoff=temperature_flux_due_to_runoff_expressed_as_heat_flux_into_sea_water
+ "ocean_model","sfc_hflux_from_runoff","sfc_hflux_from_runoff"  ,"ocean_month","all",.true.,"none",2
+
+# Rosetta stone: sfc_hflux_from_calving=temperature_flux_due_to_icebergs_expressed_as_heat_flux_into_sea_water
+#"ocean_model","sfc_hflux_from_calving","sfc_hflux_from_calving","ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: fprec_melt_heat=heat_flux_into_sea_water_due_to_snow_thermodynamics
+ "ocean_model","fprec_melt_heat","fprec_melt_heat" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: heat_flux_into_sea_water_due_to_sea_ice_thermodynamics
+#                field is available from ice model as BHEAT 
+#
+# Rosetta stone: calving_melt_heat=heat_flux_into_sea_water_due_to_iceberg_thermodynamics
+# "ocean_model","calving_melt_heat","calving_melt_heat" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: lw_heat=surface_net_downward_longwave_flux
+ "ocean_model","lw_heat","lw_heat" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: evap_heat=surface_downward_latent_heat_flux
+ "ocean_model","evap_heat","evap_heat" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: sens_heat=surface_downward_sensible_heat_flux
+ "ocean_model","sens_heat","sens_heat" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: swflx=surface_net_downward_shortwave_flux
+ "ocean_model","swflx","swflx" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: sw_heat=downwelling_shortwave_flux_in_sea_water
+ "ocean_model","sw_heat","sw_heat" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: ehat_flux_correction = 0.0 
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.8: surface momentum fluxes 
+# all of these fields are time dependent two-dimensional fields 
+#
+# Rosetta stone: tau_x=surface_downward_x_stress
+ "ocean_model","tau_x","tau_x" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: tau_y=surface_downward_y_stress
+ "ocean_model","tau_y","tau_y" ,"ocean_month","all",.true.,"none",2
+#
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.9: vertical SGS processes
+#
+# Rosetta stone: diff_cbt_t=ocean_vertical_heat_diffusivity
+# "ocean_model","diff_cbt_t","diff_cbt_t" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: diff_cbt_s=ocean_vertical_salt_diffusivity
+# "ocean_model","diff_cbt_s","diff_cbt_s" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: diff_cbt_back=ocean_vertical_tracer_diffusivity_due_to_background
+# "ocean_model","diff_cbt_back","diff_cbt_back" ,"ocean_month","all",.false.,"none",2
+#
+# Rosetta stone: diff_cbt_tides=ocean_vertical_tracer_diffusivity_due_to_tides
+# "ocean_model","diff_cbt_tides","diff_cbt_tides" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: power_diss=tendency_of_ocean_potential_energy_content
+# "ocean_model","power_diss","power_diss" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: power_diss_tides=tendency_of_ocean_potential_energy_content_due_to_tides
+# "ocean_model","power_diss_tides","power_diss_tides" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: power_diss_back=tendency_of_ocean_potential_energy_content_due_to_background 
+# "ocean_model","power_diss_back","power_diss_back"   ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: visc_cbu=ocean_vertical_momentum_diffusivity
+# "ocean_model","visc_cbu","visc_cbu" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: visc_cbu_back=ocean_vertical_momentum_diffusivity_due_to_background
+# "ocean_model","visc_cbu_back","visc_cbu_back" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: visc_cbu_tides=ocean_vertical_momentum_diffusivity_due_to_tides
+# "ocean_model","visc_cbu_tides","visc_cbu_tides" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: ocean_vertical_momentum_diffusivity_due_to_form_drag=0.0
+#
+# Rosetta stone: vert_lap_diss=ocean_kinetic_energy_dissipation_per_unit_area_due_to_vertical_friction
+# "ocean_model","vert_lap_diss","vert_lap_diss" ,"ocean_month","all",.true.,"none",2
+#
+#
+#==========================================================================
+# WGOMD/CMIP5 Table 2.10: lateral SGS processes
+#
+# Rosetta stone: agm=ocean_tracer_bolus_laplacian_diffusivity
+ "ocean_model","agm","agm" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: ocean_tracer_bolus_biharmonic_diffusivity = 0.0
+#
+# Rosetta stone: aredi=ocean_tracer_epineutral_laplacian_diffusivity
+# "ocean_model","aredi","aredi" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: ocean_tracer_epineutral_biharmonic_diffusivity=0.0
+#
+# Rosetta stone: ocean_tracer_xy_laplacian_diffusivity = 0.0
+#
+# Rosetta stone: ocean_tracer_xy_biharmonic_diffusivity = 0.0
+#
+# Rosetta stone: gm_eddy_ke_source=tendency_of_ocean_eddy_kinetic_energy_content_due_to_bolus_transport
+# "ocean_model","gm_eddy_ke_source","gm_eddy_ke_source" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: aiso_lap=ocean_momentum_xy_laplacian_diffusivity
+# "ocean_model","aiso_lap","aiso_lap" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: aiso_bih=ocean_momentum_xy_biharmonic_diffusivity
+# "ocean_model","aiso_bih","aiso_bih" ,"ocean_month","all",.true.,"none",2
+#
+# Rosetta stone: ocean_kinetic_energy_dissipation_per_unit_area_due_to_xy_friction is
+# diagnosed from the sum of the following two fields 
+# "ocean_model","horz_lap_diss","horz_lap_diss" ,"ocean_month",all,.true.,"none",2
+# "ocean_model","horz_bih_diss","horz_bih_diss" ,"ocean_month",all,.true.,"none",2
+#
+#==========================================================================
+#
+# The following represent extra fields that have been of use for
+# GFDL analysis.  They are not part of CMIP5 requests 
+#
+#==========================================================================
+# surface flux quantities
+ "ocean_model","frazil_2d","frazil_2d"                                      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","pme_velocity","pme"                                         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","pme_sbc","pme_mass"                                         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","river","river"                                              ,"ocean_month","all",.true.,"none",2
+ "ocean_model","swflx_vis","swflx_vis"                                      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","sw_frac","sw_frac"                                          ,"ocean_month","all",.true.,"none",2
+ "ocean_model","f_vis","f_vis"                                              ,"ocean_month","all",.true.,"none",2
+ "ocean_model","sfc_hflux_coupler","sfc_hflux_coupler"                      ,"ocean_month","all",.true.,"none",2
+ "ocean_model","sfc_hflux_pme","sfc_hflux_pme"                              ,"ocean_month","all",.true.,"none",2
+ "ocean_model","tau_curl","tau_curl"                                        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","ekman_we","ekman_we"                                        ,"ocean_month","all",.true.,"none",2
+# "ocean_model","salt_calvingmix","salt_calvingmix"                          ,"ocean_month","all",.true.,"none",2
+# "ocean_model","temp_calvingmix","temp_calvingmix"                          ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_runoffmix","temp_runoffmix"                            ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_rivermix","temp_rivermix"                              ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_runoff","temp_runoff"                                  ,"ocean_month","all",.true.,"none",2
+# "ocean_model","temp_calving","temp_calving"                                ,"ocean_month","all",.true.,"none",2
+#==========================================================================
+#ice melt/form associated waterflux:
+#dhb599: melt=water_flux_into_sea_water_due_to_sea_ice_melting
+ "ocean_model","wfimelt","wfimelt"                                          ,"ocean_month","all",.true.,"none",2
+#dhb599: form=water_flux_outof_sea_water_due_to_sea_ice_forming
+ "ocean_model","wfiform","wfiform"                                          ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# global integrated ocean surface fluxes
+"ocean_model","total_ocean_pme_river","total_ocean_pme_river"                ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_river","total_ocean_river"                        ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_evap","total_ocean_evap"                          ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_pme_sbc","total_ocean_pme_sbc"                    ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_fprec","total_ocean_fprec"                        ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_lprec","total_ocean_lprec"                        ,"ocean_scalar","all",.true.,"none",2
+#"ocean_model","total_ocean_calving","total_ocean_calving"                    ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_runoff","total_ocean_runoff"                      ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_salt","total_ocean_salt"                          ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_heat","total_ocean_heat"                          ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_hflux_pme","total_ocean_hflux_pme"                ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_swflx","total_ocean_swflx"                        ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_swflx_vis","total_ocean_swflx_vis"                ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_evap_heat","total_ocean_evap_heat"                ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_lw_heat","total_ocean_lw_heat"                    ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_sens_heat","total_ocean_sens_heat"                ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_fprec_melt_heat","total_ocean_fprec_melt_heat"    ,"ocean_scalar","all",.true.,"none",2
+#"ocean_model","total_ocean_calving_heat","total_ocean_calving_heat"          ,"ocean_scalar","all",.true.,"none",2
+#"ocean_model","total_ocean_calving_melt_heat","total_ocean_calving_melt_heat","ocean_scalar","all",.true.,"none",2
+"ocean_model","total_ocean_runoff_heat","total_ocean_runoff_heat"            ,"ocean_scalar","all",.true.,"none",2
+#
+#==========================================================================
+# global integrated/averaged ocean fields
+"ocean_model","ke_tot","ke_tot"                                ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","pe_tot","pe_tot"                                ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","temp_surface_ave","temp_surface_ave"            ,"ocean_scalar","all",.true.,"none",2
+"ocean_model","salt_surface_ave","salt_surface_ave"            ,"ocean_scalar","all",.true.,"none",2
+#
+#==========================================================================
+# 2d surface height and bottom pressure related fields
+ "ocean_model","pbot0","pbot0"                            ,"ocean_month","all",.false.,"none",2
+ "ocean_model","anompb","anompb"                          ,"ocean_month","all",.true.,"none",2
+ "ocean_model","eta_t","eta_t"                            ,"ocean_month","all",.true.,"none",2
+ "ocean_model","eta_u","eta_u"                            ,"ocean_month","all",.true.,"none",2
+ "ocean_model","rhobarz","rhobarz"                        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","conv_rho_ud_t","conv_rho_ud_t"            ,"ocean_month","all",.true.,"none",2
+ "ocean_model","urhod","urhod"                            ,"ocean_month","all",.true.,"none",2
+ "ocean_model","vrhod","vrhod"                            ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# 2d surface and bottom fields monthly output 
+ "ocean_model","usurf","u_surf"                        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","vsurf","v_surf"                        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","ubott","u_bott"                        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","vbott","v_bott"                        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","bottom_temp","bottom_temp"             ,"ocean_month","all",.true.,"none",2
+ "ocean_model","bottom_salt","bottom_salt"             ,"ocean_month","all",.true.,"none",2
+ "ocean_model","bottom_age_global","bottom_age_global" ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# conservative temperature 3d tracer 
+ "ocean_model","con_temp","con_temp"         ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# 3d salt/temp fluxes and tendencies
+ "ocean_model","temp_xflux_adv","temp_xflux_adv"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_yflux_adv","temp_yflux_adv"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_zflux_adv","temp_zflux_adv"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_xflux_adv","salt_xflux_adv"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_yflux_adv","salt_yflux_adv"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_zflux_adv","salt_zflux_adv"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_vdiffuse_impl","temp_vdiffuse_impl" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_vdiffuse_impl","salt_vdiffuse_impl" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_tendency","temp_tendency"           ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_tendency","salt_tendency"           ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_tendency_expl","temp_tendency_expl" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_tendency_expl","salt_tendency_expl" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","neutral_temp","neutral_temp"             ,"ocean_month","all",.true.,"none",2
+ "ocean_model","neutral_salt","neutral_salt"             ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_submeso","temp_submeso"             ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_submeso","salt_submeso"             ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# 2d and 3d physics fields
+ "ocean_model","neutral_rho","neutral_rho"           ,"ocean_month","all",.true.,"none",2
+ "ocean_model","pot_rho_2","pot_rho_2"               ,"ocean_month","all",.true.,"none",2
+ "ocean_model","potrho_mix_base","potrho_mix_base"   ,"ocean_month","all",.true.,"none",2
+ "ocean_model","potrho_mix_depth","potrho_mix_depth" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","press","press"                       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","wt","wt"                             ,"ocean_month","all",.true.,"none",2
+ "ocean_model","wrhot","wrhot"                       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","drhodtheta","drhodtheta"             ,"ocean_month","all",.true.,"none",2
+ "ocean_model","drhodsalinity","drhodsalinity"       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","cabbeling","cabbeling"               ,"ocean_month","all",.true.,"none",2
+ "ocean_model","thermobaricity","thermobaricity"     ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# 2d vertically-integrated fluxes
+ "ocean_model","salt_adv_flux_x_int_z","salt_adv_flux_x_int_z"        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_adv_flux_y_int_z","salt_adv_flux_y_int_z"        ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_xflux_ndiffuse_int_z","salt_xflux_ndiffuse_int_z" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_yflux_ndiffuse_int_z","salt_yflux_ndiffuse_int_z" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_xflux_gm_modes_int_z","salt_xflux_gm_modes_int_z" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_yflux_gm_modes_int_z","salt_yflux_gm_modes_int_z" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","salt_xflux_overflow_int_z","salt_xflux_overflow_int_z", "ocean_month","all",.true.,"none",2
+ "ocean_model","salt_yflux_overflow_int_z","salt_yflux_overflow_int_z", "ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# 2d mass transport quasi-streamfunction for comparison to psiu 
+ "ocean_model","psiv","psiv","ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# 3d quasi-physical parameterizations
+# "ocean_model","mass_xland","mass_xland"                ,"ocean_month","all",.true.,"none",2
+# "ocean_model","mass_xlandinsert","mass_xlandinsert"    ,"ocean_month","all",.true.,"none",2
+# "ocean_model","salt_xland","salt_xland"                ,"ocean_month","all",.true.,"none",2
+# "ocean_model","salt_xlandinsert","salt_xlandinsert"    ,"ocean_month","all",.true.,"none",2
+# "ocean_model","temp_xland","temp_xland"                ,"ocean_month","all",.true.,"none",2
+# "ocean_model","temp_xlandinsert","temp_xlandinsert"    ,"ocean_month","all",.true.,"none",2
+ "ocean_model","temp_sigma","temp_sigma"                ,"ocean_month","all",.true.,"none",2
+ "ocean_model","mixdownslope_temp","mixdownslope_temp"  ,"ocean_month","all",.true.,"none",2
+ "ocean_model","mixdownslope_salt","mixdownslope_salt"  ,"ocean_month","all",.true.,"none",2
+# "ocean_model","overflow_temp","overflow_temp"          ,"ocean_month","all",.true.,"none",2
+# "ocean_model","overflow_salt","overflow_salt"          ,"ocean_month","all",.true.,"none",2
+# "ocean_model","overflow_xflux","overflow_xflux"        ,"ocean_month","all",.true.,"none",2
+# "ocean_model","overflow_yflux","overflow_yflux"        ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# neutral physics parameterization
+ "ocean_model","steep_depth","steep_depth"                     ,"ocean_month","all",.true.,"none",2
+ "ocean_model","eddy_depth","eddy_depth"                       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","slope_blayer_base","slope_blayer_base"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","depth_blayer_base","depth_blayer_base"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","surf_trans_thick","surf_trans_thick"           ,"ocean_month","all",.true.,"none",2
+ "ocean_model","surf_turb_thick","surf_turb_thick"             ,"ocean_month","all",.true.,"none",2
+ "ocean_model","surf_blayer_depth","surf_blayer_depth"         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","agm_grid_scaling","agm_grid_scaling"           ,"ocean_month","all",.true.,"none",2
+#"ocean_model","N_squared","N_squared"                         ,"ocean_month","all",.true.,"none",2
+ "ocean_model","bv_freq","bv_freq"                             ,"ocean_month","all",.true.,"none",2
+#"ocean_model","ksurf_blayer","ksurf_blayer"                   ,"ocean_month","all",.true.,"none",2
+ "ocean_model","rossby","rossby"                               ,"ocean_month","all",.true.,"none",2
+ "ocean_model","rossby_radius","rossby_radius"                 ,"ocean_month","all",.true.,"none",2
+#"ocean_model","slope31","slope31"                             ,"ocean_month","all",.true.,"none",2
+#"ocean_model","slope32","slope32"                             ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# submeso physics parameterization of use for GFDL analysis
+#"ocean_model","front_length_submeso","front_length_submeso"   ,"ocean_month","all",.true.,"none",2
+"ocean_model","buoy_freq_ave_submeso","buoy_freq_ave_submeso" ,"ocean_month","all",.true.,"none",2
+"ocean_model","hblt_submeso","hblt_submeso"                   ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# lateral friction of use for GFDL analysis
+ "ocean_model","viscosity_scaling","viscosity_scaling"   ,"ocean_month","all",.true.,"none",2
+ "ocean_model","visc_crit_bih","visc_crit_bih"           ,"ocean_month","all",.false.,"none",2
+ #"ocean_model","aiso_bih_back","aiso_bih_back"           ,"ocean_month","all",.false.,"none",2
+ "ocean_model","lap_fric_u","lap_fric_u"                 ,"ocean_month","all",.true.,"none",2
+ "ocean_model","lap_fric_v","lap_fric_v"                 ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# vertical viscosity and diffusivity of use for GFDL analysis
+ "ocean_model","diff_cbt_wave","diff_cbt_wave"       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","diff_cbt_drag","diff_cbt_drag"       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","bvfreq_bottom","bvfreq_bottom"       ,"ocean_month","all",.true.,"none",2
+ "ocean_model","mix_efficiency","mix_efficiency"     ,"ocean_month","all",.true.,"none",2
+ "ocean_model","power_waves","power_waves"           ,"ocean_month","all",.true.,"none",2
+ "ocean_model","power_diss_wave","power_diss_wave"   ,"ocean_month","all",.true.,"none",2
+ "ocean_model","power_diss_drag","power_diss_drag"   ,"ocean_month","all",.true.,"none",2
+ "ocean_model","energy_flux","energy_flux"           ,"ocean_month","all",.true.,"none",2
+ "ocean_model","diff_cbt_kpp_t","diff_cbt_kpp_t"     ,"ocean_month","all",.true.,"none",2
+ "ocean_model","diff_cbt_kpp_s","diff_cbt_kpp_s"     ,"ocean_month","all",.true.,"none",2
+ "ocean_model","tide_speed_wave","tide_speed_wave"   ,"ocean_month","all",.false.,"none",2
+ "ocean_model","tide_speed_drag","tide_speed_drag"   ,"ocean_month","all",.false.,"none",2
+ "ocean_model","tide_speed_mask","tide_speed_mask"   ,"ocean_month","all",.false.,"none",2
+ "ocean_model","roughness_length","roughness_length" ,"ocean_month","all",.true.,"none",2
+ "ocean_model","roughness_amp","roughness_amp"       ,"ocean_month","all",.true.,"none",2
+
+ "ocean_model","langmuirfactor","langmuirfactor"     ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# surface and bottom momentum of use for GFDL analysis
+"ocean_model","bmf_u","bmf_u"                      ,"ocean_month","all",.true.,"none",2
+"ocean_model","bmf_v","bmf_v"                      ,"ocean_month","all",.true.,"none",2
+"ocean_model","bottom_power_u","bottom_power_u"    ,"ocean_month","all",.true.,"none",2
+"ocean_model","bottom_power_v","bottom_power_v"    ,"ocean_month","all",.true.,"none",2
+"ocean_model","wind_power_u","wind_power_u"        ,"ocean_month","all",.true.,"none",2
+"ocean_model","wind_power_v","wind_power_v"        ,"ocean_month","all",.true.,"none",2
+#
+#==========================================================================
+# Ocean CFC fields of use for GFDL analysis
+#
+#"ocean_model","cfc_12","cfc_12"                         ,"ocean_month","all",.true.,"none",2
+#"ocean_ocmip2_cfc","sfc_flux_cfc_11","sfc_flux_cfc_11"  ,"ocean_month","all",.true.,"none",2
+#"ocean_ocmip2_cfc","sfc_flux_cfc_12","sfc_flux_cfc_12"  ,"ocean_month","all",.true.,"none",2
+#==========================================================================
+#
+#====> This file can be used with diag_manager/v2.0a (or higher) <====
+#
+#
+#  FORMATS FOR FILE ENTRIES (not all input values are used)
+#  ------------------------
+#
+#"file_name", output_freq, "output_units", format, "time_units", "long_name",
+#
+#
+#output_freq:  > 0  output frequency in "output_units"
+#              = 0  output frequency every time step
+#              =-1  output frequency at end of run
+#
+#output_units = units used for output frequency
+#               (years, months, days, minutes, hours, seconds)
+#
+#time_units   = units used to label the time axis
+#               (days, minutes, hours, seconds)
+#
+#
+#  FORMAT FOR FIELD ENTRIES (not all input values are used)
+#  ------------------------
+#
+#"module_name", "field_name", "output_name", "file_name" "time_sampling", time_avg, "other_opts", packing
+#
+#time_avg = .true. or .false.
+#
+#packing  = 1  double precision
+#         = 2  float
+#         = 4  packed 16-bit integers
+#         = 8  packed 1-byte (not tested?)
+
+# bgc fields
+"ocean_model","no3","no3",       "ocean_bgc","all",.true.,"none",2
+"ocean_model","phy","phy",       "ocean_bgc","all",.true.,"none",2
+"ocean_model","o2","o2",        "ocean_bgc","all",.true.,"none",2
+"ocean_model","det","det",       "ocean_bgc","all",.true.,"none",2
+"ocean_model","zoo","zoo",       "ocean_bgc","all",.true.,"none",2
+"ocean_model","caco3","caco3",     "ocean_bgc","all",.true.,"none",2
+"ocean_model","dic","dic",       "ocean_bgc","all",.true.,"none",2
+"ocean_model","alk","alk",       "ocean_bgc","all",.true.,"none",2
+"ocean_model","adic","adic",      "ocean_bgc","all",.true.,"none",2
+"ocean_model","fe","fe",        "ocean_bgc","all",.true.,"none",2
+"ocean_model","stf03","stf03",        "ocean_bgc","all",.true.,"none",2
+"ocean_model","stf07","stf07",        "ocean_bgc","all",.true.,"none",2
+"ocean_model","stf09","stf09",        "ocean_bgc","all",.true.,"none",2
+"ocean_model","stf10","stf10",        "ocean_bgc","all",.true.,"none",2
+"ocean_model","pco2","pco2",          "ocean_bgc","all",.true.,"none",2
+"ocean_model","paco2","paco2",        "ocean_bgc","all",.true.,"none",2
+"ocean_model","pprod_gross","pprod_gross",   "ocean_bgc","all",.true.,"none",2
+"ocean_model","pprod_gross_2d","pprod_gross_2d",   "ocean_bgc","all",.true.,"none",2
+"ocean_model","export_prod","export_prod",   "ocean_bgc","all",.true.,"none",2
+"ocean_model","export_inorg","export_inorg",   "ocean_bgc","all",.true.,"none",2
+"ocean_model","total_co2_flux","total_co2_flux","ocean_bgc","all",.true.,"none",2
+"ocean_model","total_aco2_flux","total_aco2_flux","ocean_bgc","all",.true.,"none",2
+"ocean_model","atm_co2","atm_co2",   "ocean_bgc","all",.true.,"none",2
+"ocean_model","wnd","wnd",   "ocean_bgc","all",.true.,"none",2
+"ocean_model","det_sediment","det_sediment",        "ocean_bgc","all",.true.,"none",2
+"ocean_model","caco3_sediment","caco3_sediment",        "ocean_bgc","all",.true.,"none",2
+
+
+ "ocean_model","surface_no3","no3os_raw"  ,"ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","surface_phy","phynos_raw"  ,"ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","surface_alk","talkos_raw"  ,"ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","surface_dic","dissicnatos_raw"  ,"ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","surface_adic","dissicos_raw"  ,"ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","surface_o2","o2os_raw"  ,"ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","pprod_gross_2d","intpp_raw",   "ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","export_prod","epn100_raw",   "ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","export_inorg","eparag100_raw",   "ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","pco2","spco2nat_raw",   "ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","paco2","spco2_raw",   "ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","stf07","fgco2nat_raw",   "ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","stf09","fgco2_raw",   "ocean_bgc_mth","all",.true.,"none",2
+ "ocean_model","stf03","fgo2_raw",   "ocean_bgc_mth","all",.true.,"none",2
+
+"ocean_model","cfc_11","cfc11_raw" ,"ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","cfc_12","cfc12_raw" ,"ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","adic","dissic_raw",      "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","dic","dissicnat_raw",       "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","caco3","arag_raw",     "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","alk","talk_raw",       "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","o2","o2_raw",        "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","no3","no3_raw",       "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","fe","fe_raw",        "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","det","pon_raw",       "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","phy","phyn_raw",       "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","stf07","fgco2nat_raw",        "ocean_bgc_ann","all",.true.,"none",2
+"ocean_model","stf09","fgco2_raw",        "ocean_bgc_ann","all",.true.,"none",2

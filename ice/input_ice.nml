@@ -1,0 +1,31 @@
+&coupling
+ caltype=1
+ jobnum=2
+ inidate=01010101
+ init_date=00010101
+ runtime0=3155673600
+ runtime=86400
+ dt_cpl_ai=10800
+ dt_cpl_io=3600
+ dt_cice=3600
+ pop_icediag=.true.
+ ice_pressure_on=.true.
+ air_pressure_on=.false.
+ ice_fwflux=.true.
+ use_ocnslope=.false.
+ use_umask=.false.
+ rotate_winds=.true.
+ limit_icemelt=.false.
+ meltlimit=-200.0
+ chk_i2o_fields=.false.
+ chk_o2i_fields=.false.
+ chk_i2a_fields=.false.
+ chk_a2i_fields=.false.
+ use_core_runoff=.false.
+ gbm2pericearea=.true.
+ do_scale_fluxes=.false.
+ imsk_evap=.false.
+ extreme_test=.false.
+ restartdir='RESTART'
+ inputdir='INPUT'
+&end
