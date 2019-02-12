@@ -37,6 +37,8 @@ submodels:
       input:
         - /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl
 
+restart: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000
+
 calendar:
     start:
         year: 101

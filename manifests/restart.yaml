@@ -1,3 +1,66 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/atm/restart_dump.astart:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/atm/restart_dump.astart
+  hashes:
+    binhash: 4a5ee3db511885d2a0c6ae9e65757849
+    md5: a592362f9f7f13cd71ddc10fd6c09628
+work/cpl/a2i.nc:
+  copy: true
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/cpl/a2i.nc
+  hashes:
+    binhash: 44970b05fd23a3620885347a82a1e9f9
+    md5: eeba47b146ee2ea5155c8f2b510dc6cd
+work/cpl/i2a.nc:
+  copy: true
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/cpl/i2a.nc
+  hashes:
+    binhash: db8606ba1321552b70e5d3b8407a4eac
+    md5: 595072dc7a55388eaf50f5227c6ec021
+work/cpl/o2i.nc:
+  copy: true
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/cpl/o2i.nc
+  hashes:
+    binhash: a8dca7ac5004ce8608b40c8516ba8acc
+    md5: c1427f455a14709b967f95b26f75d16a
+work/ice/RESTART/cice_in.nml:
+  copy: true
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/ice/cice_in.nml
+  hashes:
+    binhash: 7a34919bce68a0d7f98dbfa890c70fb6
+    md5: 1576287c82da88ffc4752430100f848e
+work/ice/RESTART/ice.restart_file:
+  copy: true
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/ice/ice.restart_file
+  hashes:
+    binhash: 96c344ce47165644034c64c41cc59bba
+    md5: 9821250a6362da9137a413d46f4b143b
+work/ice/RESTART/iced.01010101:
+  copy: true
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/ice/iced.01010101
+  hashes:
+    binhash: 19bec3bb464a433e60e6d91a49db29ce
+    md5: 9d1c203156e0c6d73ea9ed909c6d174e
+work/ice/RESTART/input_ice.nml:
+  copy: true
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/ice/input_ice.nml
+  hashes:
+    binhash: fe78061056e1bf2b9c5ef22bf726e014
+    md5: e2d6d0541795dd3eeae54cda28ecba96
+work/ice/RESTART/mice.nc:
+  copy: true
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/ice/mice.nc
+  hashes:
+    binhash: 2fd4c10a09abfd4d9577db0cb4c27bb1
+    md5: bf9362bb0414815555808b5b893de2f9
+work/ocn/INPUT/ocean_solo.res:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/ocn/ocean_solo.res
+  hashes:
+    binhash: 52268f14f68159ddfd3b63760a72faf1
+    md5: a5985b5851fbb6e03a745a7d151bc9da
+work/ocn/INPUT/ocean_tracer.res:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000/ocn/ocean_tracer.res
+  hashes:
+    binhash: 2014345d49d068ff2bb1758ee2e23d8e
+    md5: 720f9b92aafee66fc11ba8b32cf5823b
