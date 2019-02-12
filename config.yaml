@@ -1,9 +1,11 @@
 jobname: pre-industrial
 queue: express
-walltime: 0:20:00
+walltime: 0:30:00
 ncpus: 112
 
 model: access
+
+runspersub: 5
 
 # TODO: Should be a relative path so repository is portable
 # laboratory: ../..
