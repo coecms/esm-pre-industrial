@@ -26,6 +26,6 @@
  do_scale_fluxes=.false.
  imsk_evap=.false.
  extreme_test=.false.
- restartdir='.'
+ restartdir='RESTART'
  inputdir='INPUT'
 &end
