@@ -50,7 +50,7 @@ calendar:
     runtime:
         years: 0
         months: 0
-        days: 1
+        days: 5
 
 # userscripts:
 #     setup: ./setup.sh
