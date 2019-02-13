@@ -1,101 +1,16 @@
 format: yamanifest
 version: 1.0
 ---
-work/atm/INPUT/./BC_hi_1850_ESM1.anc:
+work/atm/INPUT/BC_hi_1850_ESM1.anc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/BC_hi_1850_ESM1.anc
   hashes:
     binhash: 33bf8ac68e1c12b6d2798475d16ed9c0
     md5: 74803eb36a358f9ac8ecdae36cdb7f56
-work/atm/INPUT/./Bio_1850_ESM1.anc:
+work/atm/INPUT/Bio_1850_ESM1.anc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/Bio_1850_ESM1.anc
   hashes:
     binhash: 8aeb52e76c8da4262030878e712b7a67
     md5: 69dc6afb4bc7524d346f3b82f2657c97
-work/atm/INPUT/./DMS_conc.N96:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/DMS_conc.N96
-  hashes:
-    binhash: 4216db1d179d332189d18b9ae4ac1cbe
-    md5: 7e8ec8de832c0b9b8c1d9f0eda4d54e5
-work/atm/INPUT/./Ndep_1850_ESM1.anc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/Ndep_1850_ESM1.anc
-  hashes:
-    binhash: 79e46ea43191c7f9c197e34c7e0cac64
-    md5: 48462cfa1aeed200c3b8d0bf1b49654a
-work/atm/INPUT/./OCFF_1850_ESM1.anc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/OCFF_1850_ESM1.anc
-  hashes:
-    binhash: 067d2d7aecfb247ce40b4d98aca140d0
-    md5: 95eec04860fa30ee863d30e67e683407
-work/atm/INPUT/./SOURCES:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/SOURCES
-  hashes:
-    binhash: 5c881469c79e5a8b7555a8ae6ef5831d
-    md5: 5b3a5f40cb3a2ba0df1f3251e65194b6
-work/atm/INPUT/./biogenic_351sm.N96L38:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/biogenic_351sm.N96L38
-  hashes:
-    binhash: a4a3f4de1691c70b5376499ecdb8b572
-    md5: 55eb75f602a4639fb3c8ff40e36eb661
-work/atm/INPUT/./cable_vegfunc_N96.anc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/cable_vegfunc_N96.anc
-  hashes:
-    binhash: 63a676887a8b2a813d200d7179a0e43e
-    md5: 7a8cb16191ad29b081514657893530c6
-work/atm/INPUT/./ozone_1850_ESM1.anc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/ozone_1850_ESM1.anc
-  hashes:
-    binhash: ec68e6fb069a061b1ffa407bcf44ab34
-    md5: a64a01e3b092085fca308524a75a1cee
-work/atm/INPUT/./qrclim.slt:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/qrclim.slt
-  hashes:
-    binhash: 6aeb0790cac7bb3c2deebf113e7e8d88
-    md5: dfb5e52b445917514e5c6ce2ac208c46
-work/atm/INPUT/./qrclim.smow:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/qrclim.smow
-  hashes:
-    binhash: 5a06651c5c9cb99a616ec490b0c4bfa1
-    md5: 89d4912892b8ebd22329dd131d326ccc
-work/atm/INPUT/./qrparm.mask:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/qrparm.mask
-  hashes:
-    binhash: bda86108e1548556ed41246873ffa150
-    md5: f497c7827bd22ef0b98f1d1af776866d
-work/atm/INPUT/./qrparm.soil_igbp_vg:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/qrparm.soil_igbp_vg
-  hashes:
-    binhash: d80486ce5ab888a84bd58baadb444d45
-    md5: 26ce57f462dd574fe49f290ab7877112
-work/atm/INPUT/./scycl_1850_ESM1_v4.anc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/scycl_1850_ESM1_v4.anc
-  hashes:
-    binhash: 330f466f32d9f6bdef0bffb90ebb4be3
-    md5: 2c390f44c4f57078340cfbd408fdc754
-work/atm/INPUT/./spec3a_lw_hadgem1_6on:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/spec3a_lw_hadgem1_6on
-  hashes:
-    binhash: 4eeb02884a8ea8b1e402aa4870763b86
-    md5: 9ff85916dbb36ba6679b954d16387aee
-work/atm/INPUT/./spec3a_sw_hadgem1_6on:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/spec3a_sw_hadgem1_6on
-  hashes:
-    binhash: 0cb252181b5f74ce6f9ba811ca6e2495
-    md5: 0e74c13cf3333132f38d8c5c52e1c7eb
-work/atm/INPUT/./sulpc_oxidants_N96_L38:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/sulpc_oxidants_N96_L38
-  hashes:
-    binhash: fed3048f70fa5aabc4bdb7435cdd8ebc
-    md5: 7c42d1faf74b2b9f6819f2349a8d0d25
-work/atm/INPUT/./vertlevs_G3:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/vertlevs_G3
-  hashes:
-    binhash: a2e7fa72be9a1ade2714499a1cc60d97
-    md5: 58ca02de69b16bd59771c81e06c4c21a
-work/atm/INPUT/./volcts_18502000ave.dat:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/volcts_18502000ave.dat
-  hashes:
-    binhash: 10f3db85ccf504c0f9391414c36f1eda
-    md5: 47bd369c750be55d706ab60c78bc7aee
 work/atm/INPUT/CABLE-AUX-1.4/core/biogeochem/modis_phenology_csiro.txt:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/CABLE-AUX-1.4/core/biogeochem/modis_phenology_csiro.txt
   hashes:
@@ -131,6 +46,26 @@ work/atm/INPUT/CABLE-AUX-1.4/core/biogeophys/def_veg_params.txt:
   hashes:
     binhash: 5e4f49539d4180beafd68017810b0def
     md5: 1f9a27f0e252bf6c466100573c126789
+work/atm/INPUT/DMS_conc.N96:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/DMS_conc.N96
+  hashes:
+    binhash: 4216db1d179d332189d18b9ae4ac1cbe
+    md5: 7e8ec8de832c0b9b8c1d9f0eda4d54e5
+work/atm/INPUT/Ndep_1850_ESM1.anc:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/Ndep_1850_ESM1.anc
+  hashes:
+    binhash: 79e46ea43191c7f9c197e34c7e0cac64
+    md5: 48462cfa1aeed200c3b8d0bf1b49654a
+work/atm/INPUT/OCFF_1850_ESM1.anc:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/OCFF_1850_ESM1.anc
+  hashes:
+    binhash: 067d2d7aecfb247ce40b4d98aca140d0
+    md5: 95eec04860fa30ee863d30e67e683407
+work/atm/INPUT/SOURCES:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/SOURCES
+  hashes:
+    binhash: 5c881469c79e5a8b7555a8ae6ef5831d
+    md5: 5b3a5f40cb3a2ba0df1f3251e65194b6
 work/atm/INPUT/STASHmaster/STASHmaster_A:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/STASHmaster/STASHmaster_A
   hashes:
@@ -161,6 +96,56 @@ work/atm/INPUT/STASHmaster/STASHsections_A:
   hashes:
     binhash: 57490344153f6be52d0ce55a9a5504e0
     md5: 8525fd107dbea6184db74089f1d55fd9
+work/atm/INPUT/biogenic_351sm.N96L38:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/biogenic_351sm.N96L38
+  hashes:
+    binhash: a4a3f4de1691c70b5376499ecdb8b572
+    md5: 55eb75f602a4639fb3c8ff40e36eb661
+work/atm/INPUT/cable_vegfunc_N96.anc:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/cable_vegfunc_N96.anc
+  hashes:
+    binhash: 63a676887a8b2a813d200d7179a0e43e
+    md5: 7a8cb16191ad29b081514657893530c6
+work/atm/INPUT/ozone_1850_ESM1.anc:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/ozone_1850_ESM1.anc
+  hashes:
+    binhash: ec68e6fb069a061b1ffa407bcf44ab34
+    md5: a64a01e3b092085fca308524a75a1cee
+work/atm/INPUT/qrclim.slt:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/qrclim.slt
+  hashes:
+    binhash: 6aeb0790cac7bb3c2deebf113e7e8d88
+    md5: dfb5e52b445917514e5c6ce2ac208c46
+work/atm/INPUT/qrclim.smow:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/qrclim.smow
+  hashes:
+    binhash: 5a06651c5c9cb99a616ec490b0c4bfa1
+    md5: 89d4912892b8ebd22329dd131d326ccc
+work/atm/INPUT/qrparm.mask:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/qrparm.mask
+  hashes:
+    binhash: bda86108e1548556ed41246873ffa150
+    md5: f497c7827bd22ef0b98f1d1af776866d
+work/atm/INPUT/qrparm.soil_igbp_vg:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/qrparm.soil_igbp_vg
+  hashes:
+    binhash: d80486ce5ab888a84bd58baadb444d45
+    md5: 26ce57f462dd574fe49f290ab7877112
+work/atm/INPUT/scycl_1850_ESM1_v4.anc:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/scycl_1850_ESM1_v4.anc
+  hashes:
+    binhash: 330f466f32d9f6bdef0bffb90ebb4be3
+    md5: 2c390f44c4f57078340cfbd408fdc754
+work/atm/INPUT/spec3a_lw_hadgem1_6on:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/spec3a_lw_hadgem1_6on
+  hashes:
+    binhash: 4eeb02884a8ea8b1e402aa4870763b86
+    md5: 9ff85916dbb36ba6679b954d16387aee
+work/atm/INPUT/spec3a_sw_hadgem1_6on:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/spec3a_sw_hadgem1_6on
+  hashes:
+    binhash: 0cb252181b5f74ce6f9ba811ca6e2495
+    md5: 0e74c13cf3333132f38d8c5c52e1c7eb
 work/atm/INPUT/stasets/X01001218:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/stasets/X01001218
   hashes:
@@ -261,248 +246,183 @@ work/atm/INPUT/stasets/X01010206:
   hashes:
     binhash: f422f071d16686902e7719c9bf192566
     md5: 7d5e82e70a2f3936743eb957462d41aa
-work/cpl/./areas.nc:
+work/atm/INPUT/sulpc_oxidants_N96_L38:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/sulpc_oxidants_N96_L38
+  hashes:
+    binhash: fed3048f70fa5aabc4bdb7435cdd8ebc
+    md5: 7c42d1faf74b2b9f6819f2349a8d0d25
+work/atm/INPUT/vertlevs_G3:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/vertlevs_G3
+  hashes:
+    binhash: a2e7fa72be9a1ade2714499a1cc60d97
+    md5: 58ca02de69b16bd59771c81e06c4c21a
+work/atm/INPUT/volcts_18502000ave.dat:
+  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm/volcts_18502000ave.dat
+  hashes:
+    binhash: 10f3db85ccf504c0f9391414c36f1eda
+    md5: 47bd369c750be55d706ab60c78bc7aee
+work/cpl/areas.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/areas.nc
   hashes:
     binhash: 2ad2abc72415a5f06962e68f9418c495
     md5: 1aac9e2f82d96176f7b87ba1efc8784e
-work/cpl/./cf_name_table.txt:
+work/cpl/cf_name_table.txt:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/cf_name_table.txt
   hashes:
     binhash: 8ad39a29f5f023cb0ff99729100e0619
     md5: 74333d6fa3153ac294a74a506792375c
-work/cpl/./grids.nc:
+work/cpl/grids.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/grids.nc
   hashes:
     binhash: dfec5c3761e5c6963a8ab311502f8986
     md5: 2348de62f5fe4d55ec849f79e5d027fd
-work/cpl/./masks.nc:
+work/cpl/masks.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/masks.nc
   hashes:
     binhash: 26d79596acd0b83d37c61c54c02e017e
     md5: 0a12503901fd3d595bc25b5d3008f9d3
-work/cpl/./rmp_cice_to_um1t_CONSERV_FRACNNEI.nc:
+work/cpl/rmp_cice_to_um1t_CONSERV_FRACNNEI.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/rmp_cice_to_um1t_CONSERV_FRACNNEI.nc
   hashes:
     binhash: 5f3d0c5e0c3f8da4221f0f6f9a61b056
     md5: a8129dba5b3a7f70a5bc2fbf7f0e4f68
-work/cpl/./rmp_cice_to_um1u_CONSERV_FRACNNEI.nc:
+work/cpl/rmp_cice_to_um1u_CONSERV_FRACNNEI.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/rmp_cice_to_um1u_CONSERV_FRACNNEI.nc
   hashes:
     binhash: 66e83b06bc59619633f7755712dd6e32
     md5: 6fc856e7c2014e20903a01cdd61f4f2c
-work/cpl/./rmp_cice_to_um1v_CONSERV_FRACNNEI.nc:
+work/cpl/rmp_cice_to_um1v_CONSERV_FRACNNEI.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/rmp_cice_to_um1v_CONSERV_FRACNNEI.nc
   hashes:
     binhash: 0d35cdfff67af10710db40d953117aec
     md5: a2a7d940a9eaab59ec8fa49154116a64
-work/cpl/./rmp_um1t_to_cice_CONSERV_DESTAREA.nc:
+work/cpl/rmp_um1t_to_cice_CONSERV_DESTAREA.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/rmp_um1t_to_cice_CONSERV_DESTAREA.nc
   hashes:
     binhash: 371be58e693231aa2f2b7b82a6974832
     md5: 25be6489585df07097d4b6009bf23ec2
-work/cpl/./rmp_um1t_to_cice_CONSERV_FRACNNEI.nc:
+work/cpl/rmp_um1t_to_cice_CONSERV_FRACNNEI.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/rmp_um1t_to_cice_CONSERV_FRACNNEI.nc
   hashes:
     binhash: 548e1f5ada695299050ffdcdb4b1b94a
     md5: 269086623444b48d0cd481e69d4bdc5f
-work/cpl/./rmp_um1u_to_cice_CONSERV_FRACNNEI.nc:
+work/cpl/rmp_um1u_to_cice_CONSERV_FRACNNEI.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/rmp_um1u_to_cice_CONSERV_FRACNNEI.nc
   hashes:
     binhash: 688bd82515e98a4feef9d906ab3b6339
     md5: 58ea836bf1e12d5fc21460763b02548f
-work/cpl/./rmp_um1v_to_cice_CONSERV_FRACNNEI.nc:
+work/cpl/rmp_um1v_to_cice_CONSERV_FRACNNEI.nc:
   copy: true
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl/rmp_um1v_to_cice_CONSERV_FRACNNEI.nc
   hashes:
     binhash: fc543cab5e1ce8fc4f031b9d2e6d7472
     md5: 3bf9569f34b657f2ecab8ef5c93e7659
-work/ice/INPUT/./grid.nc:
+work/ice/INPUT/grid.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ice/grid.nc
   hashes:
     binhash: 4c6426a8341ea0653918e10517bcae0c
     md5: 1213e346055ee073fe33dc12578d99c6
-work/ice/INPUT/./kmt.nc:
+work/ice/INPUT/kmt.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ice/kmt.nc
   hashes:
     binhash: b66e602a68d626f001db6b2c9b5b08aa
     md5: 2bde88b9e44c46aecf2ba2dff188d1ac
-work/ice/INPUT/./monthly_sstsss.nc:
+work/ice/INPUT/monthly_sstsss.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ice/monthly_sstsss.nc
   hashes:
     binhash: 8c8a1085fa57c23baf91b16bc0f539cf
     md5: 323d4c605f83f4d7d3126da70153c2ed
-work/ocn/INPUT/./basin_mask.nc:
+work/ocn/INPUT/basin_mask.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/basin_mask.nc
   hashes:
     binhash: 4a28b83d5b07e4c7cd2686bfd6263e0f
     md5: 20fd8740f24ca95c7c086343077e9c0d
-work/ocn/INPUT/./bgc_param.nc:
+work/ocn/INPUT/bgc_param.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/bgc_param.nc
   hashes:
     binhash: eaeb2530708af4599cc2726509115b12
     md5: 7162c91ab9399c7a225fcb03593843ee
-work/ocn/INPUT/./cfc_auscom.nc:
+work/ocn/INPUT/cfc_auscom.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/cfc_auscom.nc
   hashes:
     binhash: 3ed1cd373094e408d72e5e9945881b06
     md5: 38660c8a5de3e3b63d2ae7ba5020d515
-work/ocn/INPUT/./co2_obs.nc:
+work/ocn/INPUT/co2_obs.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/co2_obs.nc
   hashes:
     binhash: e7dae499911d6e8949ab01a4b5ad0557
     md5: bfc3011737ab384d770b937b269e50fc
-work/ocn/INPUT/./csiro_bgc.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/csiro_bgc.res.nc
-  hashes:
-    binhash: d6090e7e4d314e62740c4a29ce50532b
-    md5: 0264fae2a04f41552933fc7c9629cb5b
-work/ocn/INPUT/./csiro_bgc_sediment.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/csiro_bgc_sediment.res.nc
-  hashes:
-    binhash: 3fe21260cae5ea8922ba9d103996c746
-    md5: 1a594a44aa3296b7c848d1df06c009aa
-work/ocn/INPUT/./dust.nc:
+work/ocn/INPUT/dust.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/dust.nc
   hashes:
     binhash: 9b5ad7528136b8ac94c6f40a2d5567dc
     md5: bfbbea8ac46a932d0ec8631afbfc2ae2
-work/ocn/INPUT/./geothermal_heating.nc:
+work/ocn/INPUT/geothermal_heating.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/geothermal_heating.nc
   hashes:
     binhash: 459ca3dc89e267fba1248fb6e105d9ce
     md5: 381cb231d8d059576adca0c2bea9c030
-work/ocn/INPUT/./grid_spec.nc:
+work/ocn/INPUT/grid_spec.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/grid_spec.nc
   hashes:
     binhash: aaeabb9a11e58fde8a6aacbedb853184
     md5: b9adc1e552201aa3abc6efb72786ec93
-work/ocn/INPUT/./ocean_age.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_age.res.nc
-  hashes:
-    binhash: 287405c5c9ccde7afb619ef0587515a4
-    md5: 62f88550bbe6fae625245d4687324521
-work/ocn/INPUT/./ocean_barotropic.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_barotropic.res.nc
-  hashes:
-    binhash: 65308cc902bac7306027133d5561d08b
-    md5: 459e7d194fd0e7ce9b7d1b2b42147154
-work/ocn/INPUT/./ocean_bih_friction.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_bih_friction.res.nc
-  hashes:
-    binhash: 05c42fff4bae945854870567d556a9bb
-    md5: a4fffccd557a2f59dbd749cf0f021ccb
-work/ocn/INPUT/./ocean_density.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_density.res.nc
-  hashes:
-    binhash: 8b77a87e7a80f48a36aae3edf3980b09
-    md5: 2439dcdc07032d757780ba27f1cd1308
-work/ocn/INPUT/./ocean_frazil.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_frazil.res.nc
-  hashes:
-    binhash: 4acbf300277b22412eb558ece64d6851
-    md5: 4313be3da0b9c4b9b8f69e9078b44f2f
-work/ocn/INPUT/./ocean_lap_friction.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_lap_friction.res.nc
-  hashes:
-    binhash: 26d6cd2deebafd198995e355e0288390
-    md5: 4c5464b0630874af4b2ee27192862848
-work/ocn/INPUT/./ocean_neutral.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_neutral.res.nc
-  hashes:
-    binhash: 8b699674066c2d1f95000a7e994021ae
-    md5: 49896ce1ed5722542b04af1278f498d9
-work/ocn/INPUT/./ocean_pot_temp.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_pot_temp.res.nc
-  hashes:
-    binhash: be7cc2760c9c84ca564af3b551772bb7
-    md5: 826698f00207363687214a4d547f7de2
-work/ocn/INPUT/./ocean_sbc.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_sbc.res.nc
-  hashes:
-    binhash: 90b541312bfdbfc437d64069d816d883
-    md5: dfe18ce622afa51eee2d65873d5198d1
-work/ocn/INPUT/./ocean_sigma_transport.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_sigma_transport.res.nc
-  hashes:
-    binhash: 2e9fe419e5ff673803200283cec1ff5e
-    md5: fe527a9917d30955d0dc082271c1392f
-work/ocn/INPUT/./ocean_temp_salt.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_temp_salt.res.nc
-  hashes:
-    binhash: c7e76b8f401adfe90a0cf1a18aa254a7
-    md5: c480ab32dec745089afc73f543988aa2
-work/ocn/INPUT/./ocean_thickness.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_thickness.res.nc
-  hashes:
-    binhash: 69cd0417170d6d0b157beedea8dd44f5
-    md5: ec644c3c02de187f1bd45a88d0c618b5
-work/ocn/INPUT/./ocean_velocity.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_velocity.res.nc
-  hashes:
-    binhash: 4080d5f0371a5048ddbccedc63479b56
-    md5: f483079867deea7db0cd196c92cd4e6f
-work/ocn/INPUT/./ocean_velocity_advection.res.nc:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocean_velocity_advection.res.nc
-  hashes:
-    binhash: e95f02a8e5e710c0a0e561a1d93e8a2b
-    md5: 22ec70b85e7cbb904b99bad0d614fa03
-work/ocn/INPUT/./ocmip2_abiotic_c14_atm_hist_om3_bc-1-9999.nc:
+work/ocn/INPUT/ocmip2_abiotic_c14_atm_hist_om3_bc-1-9999.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocmip2_abiotic_c14_atm_hist_om3_bc-1-9999.nc
   hashes:
     binhash: cb182413d0def094f7b26ea7ccf99525
     md5: e91a04235ab63ef060d0c6e350ed9581
-work/ocn/INPUT/./ocmip2_cfc.res.nc:
+work/ocn/INPUT/ocmip2_cfc.res.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocmip2_cfc.res.nc
   hashes:
     binhash: e5c1b18df61339846194cd9e7862c9e9
     md5: ee4351a3b547e5c29beff40f1dc4f789
-work/ocn/INPUT/./ocmip2_cfc_airsea_flux.res.nc:
+work/ocn/INPUT/ocmip2_cfc_airsea_flux.res.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocmip2_cfc_airsea_flux.res.nc
   hashes:
     binhash: 11ba4fd98d0df8686d23649561c27115
     md5: 655ad6370ab36a14e4fb84958c0d9b29
-work/ocn/INPUT/./ocmip2_fice_monthly_om1p5_bc.nc:
+work/ocn/INPUT/ocmip2_fice_monthly_om1p5_bc.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocmip2_fice_monthly_om1p5_bc.nc
   hashes:
     binhash: 55296fee44388dd7f45203c14a78aaf9
     md5: c0ed75eef44962dbe6fc9f61dbd228a9
-work/ocn/INPUT/./ocmip2_press_monthly_om1p5_bc.nc:
+work/ocn/INPUT/ocmip2_press_monthly_om1p5_bc.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocmip2_press_monthly_om1p5_bc.nc
   hashes:
     binhash: a0d7f37f834d181011a3e30b327b2c0d
     md5: 2e71cbb78c052e06e3df20f862928da2
-work/ocn/INPUT/./ocmip2_siple_co2_atm_am2_bc-1-9999.nc:
+work/ocn/INPUT/ocmip2_siple_co2_atm_am2_bc-1-9999.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocmip2_siple_co2_atm_am2_bc-1-9999.nc
   hashes:
     binhash: d9f476a66aabf581c4afaa9927dbce7e
     md5: bf1db4228eeacb676da968073b8c5848
-work/ocn/INPUT/./ocmip2_xkw_monthly_om1p5_bc.nc:
+work/ocn/INPUT/ocmip2_xkw_monthly_om1p5_bc.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ocmip2_xkw_monthly_om1p5_bc.nc
   hashes:
     binhash: ad5ab0790d11048bc46f51c5a4d02d0a
     md5: 348a035bed83e280bb0a1de0066947fc
-work/ocn/INPUT/./roughness_amp.nc:
+work/ocn/INPUT/roughness_amp.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/roughness_amp.nc
   hashes:
     binhash: 64ef7015223357875418586aa1aba4c8
     md5: 185dadeb53da2de75b47c53fd7085f89
-work/ocn/INPUT/./ssw_atten_depth.nc:
+work/ocn/INPUT/ssw_atten_depth.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/ssw_atten_depth.nc
   hashes:
     binhash: 7b326143c903bd7fbcc1789abc85fe5c
     md5: 3e88b51db135788aa4348d58cbeabfad
-work/ocn/INPUT/./tideamp.nc:
+work/ocn/INPUT/tideamp.nc:
   fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn/tideamp.nc
   hashes:
     binhash: 81d0dcf8c4bd3296819f0659d75da6eb
