@@ -1,41 +1,39 @@
 jobname: pre-industrial
 queue: express
-walltime: 2:00:00
+walltime: 3:00:00
 
 laboratory: access-esm
 model: access
 
-runspersub: 5
-
 submodels:
-    - name: atm
+    - name: atmosphere
       model: um
       ncpus: 192
-      exe: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/bin/csiro/um_hg3.exe-20190129_15
+      exe: /short/public/access-esm/payu/bin/csiro/um_hg3.exe-20190129_15
       input:
-        - /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm
+        - /short/public/access-esm/payu/input/pre-industrial/atmosphere
 
-    - name: ocn
+    - name: ocean
       model: mom
       ncpus: 84
-      exe: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/bin/csiro/fms_ACCESS-CM.dec18
+      exe: /short/public/access-esm/payu/bin/csiro/fms_ACCESS-CM.dec18
       input:
-        - /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ocn
+        - /short/public/access-esm/payu/input/common/ocean
 
     - name: ice
       model: cice
       ncpus: 12
-      exe: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/bin/csiro/cice4.1_access-mct-12p-20180108
+      exe: /short/public/access-esm/payu/bin/csiro/cice4.1_access-mct-12p-20180108
       input:
-        - /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/ice
+        - /short/public/access-esm/payu/input/common/ice
 
-    - name: cpl
+    - name: coupler
       model: oasis
       ncpus: 0
       input:
-        - /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/common/cpl
+        - /short/public/access-esm/payu/input/common/coupler
 
-restart: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/archive/pre-industrial/restart000
+restart: /short/public/access-esm/payu/restart/pre-industrial/restart000
 
 calendar:
     start:
@@ -48,11 +46,6 @@ calendar:
         months: 1
         days: 0
 
-# userscripts:
-#     setup: ./setup.sh
-
 stacksize: unlimited
-# mpirun: --mca orte_base_help_aggregate 0 -mca rmaps_base_mapping_policy '' --mca mpi_paffinity_alone 1 --output-filename stdout.rank
-archive: false
 modules:
     - openmpi/1.10.7

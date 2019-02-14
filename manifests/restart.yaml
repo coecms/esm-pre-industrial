@@ -1,267 +1,66 @@
 format: yamanifest
 version: 1.0
 ---
-work/atm/CNTLALL:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/CNTLALL
+work/atmosphere/restart_dump.astart:
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/atmosphere/restart_dump.astart
   hashes:
-    binhash: 1d89be6e1c4cb5522687cff64f79f4e8
-    md5: f60b5e03683f4c72cc3fca47a0e16f40
-work/atm/CONTCNTL:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/CONTCNTL
-  hashes:
-    binhash: 41721f2fc6fc8419bf6f2d22d8a68775
-    md5: 7125cdf5fd041856bfefce47256ea2a3
-work/atm/INITHIS:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/INITHIS
-  hashes:
-    binhash: c70d59ac21b2abb32bbe7f3868566cf2
-    md5: d0d6100c39ef0dde8d4106316bbe8703
-work/atm/PPCNTL:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/PPCNTL
-  hashes:
-    binhash: 4d05478f652a48ade2610e6476ad3b22
-    md5: d41d8cd98f00b204e9800998ecf8427e
-work/atm/SIZES:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/SIZES
-  hashes:
-    binhash: f8db2e2ffee4602a332925cc0dd158ea
-    md5: dfa5d595a84c918ffb39b88a92b7a65d
-work/atm/STASHC:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/STASHC
-  hashes:
-    binhash: abee608bfe7eefb8485bd7e75d8efe9d
-    md5: a30e18080c39e4febfc730e244f03279
-work/atm/UAFILES_A:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/UAFILES_A
-  hashes:
-    binhash: 3fb88f2d8f3439cdd4ef76c42241704a
-    md5: 89de66fc629bbf4e39994b433f737f60
-work/atm/UAFLDS_A:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/UAFLDS_A
-  hashes:
-    binhash: bd8d9b1eb3e1eec7da23ea7da0a5661b
-    md5: 42abdb31b6953d994d7c31125bf025d4
-work/atm/cable.nml:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/cable.nml
-  hashes:
-    binhash: a1fa6028d120589e3b1aaf7010d12201
-    md5: c41274e9e915be62b01ad3c88d012628
-work/atm/errflag:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/errflag
-  hashes:
-    binhash: 0ec797d61f1566b1744170d8cf2a6fbc
-    md5: bb5517eec4fd1a0ab152958f702a366e
-work/atm/exstat:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/exstat
-  hashes:
-    binhash: e38b760329ba6470ada69716a311a58c
-    md5: 9c8698bf0dd61c4390226dc56621204d
-work/atm/ftxx:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/ftxx
-  hashes:
-    binhash: 6e428fa4231b0a2a4df3f30be5cdf844
-    md5: 68b329da9893e34099c7d8ad5cb9c940
-work/atm/ftxx.new:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/ftxx.new
-  hashes:
-    binhash: 525274b321c976185093d5929304e443
-    md5: 68b329da9893e34099c7d8ad5cb9c940
-work/atm/ftxx.vars:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/ftxx.vars
-  hashes:
-    binhash: 6b87475164c8be2e0e0811872841a0c2
-    md5: 68b329da9893e34099c7d8ad5cb9c940
-work/atm/hnlist:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/hnlist
-  hashes:
-    binhash: 6781b9c467cb8fe03ba6b670a9ceb0f0
-    md5: 987f12c9925ad0c5934d84d4b1b3ba34
-work/atm/ihist:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/ihist
-  hashes:
-    binhash: 3f8f553bde394a8dc659cafbde37313a
-    md5: 919469b713a0d0c030e6186363be1201
-work/atm/namelists:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/namelists
-  hashes:
-    binhash: 7f6058e1cc8df74bdd9d21bad79da774
-    md5: 9fc392f34cbcf9edffb0611ef6593bcb
-work/atm/parexe:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/parexe
-  hashes:
-    binhash: e1eef58cc6661c703ea80fc365a3cf0b
-    md5: d41d8cd98f00b204e9800998ecf8427e
-work/atm/prefix.CNTLATM:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/prefix.CNTLATM
-  hashes:
-    binhash: 1c1ba971936f076e02459896e71f14d3
-    md5: 68b329da9893e34099c7d8ad5cb9c940
-work/atm/prefix.CNTLGEN:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/prefix.CNTLGEN
-  hashes:
-    binhash: f41a4b7565722f7700ca02a111eeab9f
-    md5: 9410902eec47522582286e062d10ed81
-work/atm/prefix.PRESM_A:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/prefix.PRESM_A
-  hashes:
-    binhash: 0eeec7d6bb83ff32bfb7a0a61e49a82d
-    md5: 9e3c40fb0e4faea3bde157297a8f9208
-work/atm/restart_dump.astart:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/atm/restart_dump.astart
-  hashes:
-    binhash: ab58fba637ffd77981f71ce3013bdf20
-    md5: 8331f579939ce9f6e97a6036832d9d83
-work/cpl/a2i.nc:
+    binhash: 6c0d3acc48cf9da07bcd2c5bb5733a03
+    md5: a592362f9f7f13cd71ddc10fd6c09628
+work/coupler/a2i.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/cpl/a2i.nc
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/coupler/a2i.nc
   hashes:
-    binhash: 43d35777a492fcdb437e27e13147c600
-    md5: f6fa2a7793efb9150be170466d20d1f5
-work/cpl/i2a.nc:
+    binhash: 72e3ccfdd41257fa37bbebf84d020433
+    md5: eeba47b146ee2ea5155c8f2b510dc6cd
+work/coupler/i2a.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/cpl/i2a.nc
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/coupler/i2a.nc
   hashes:
-    binhash: 378a18b91f7fbb457bf2d12771580d99
-    md5: d2d8390218ee2d33d71a32edc8ec5098
-work/cpl/namcouple:
+    binhash: 119f32267941883e3d197a3a6482fbe7
+    md5: 595072dc7a55388eaf50f5227c6ec021
+work/coupler/o2i.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/cpl/namcouple
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/coupler/o2i.nc
   hashes:
-    binhash: 75ae4c2be0a64f9ad00aca4d6de361d3
-    md5: ed923615df8dfa5839aa5c08933ef1ea
-work/cpl/o2i.nc:
-  copy: true
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/cpl/o2i.nc
-  hashes:
-    binhash: c44d4ebc9f27eed601c53e9f5affa19c
-    md5: 1637cac929afa93a136566b99ad143d8
+    binhash: 547fa2a782afcdd4d3c8e00d1d909366
+    md5: c1427f455a14709b967f95b26f75d16a
 work/ice/RESTART/cice_in.nml:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ice/cice_in.nml
+  copy: true
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/ice/cice_in.nml
   hashes:
-    binhash: 1a6ed1d01f981a9af5b6b4d6e6a5242a
-    md5: fa37c9fbeab024c8dcd259de4048ea48
-work/ice/RESTART/iced.01010111:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ice/iced.01010111
+    binhash: 7e64319b81e2c67b95d5217864bb94e8
+    md5: 1576287c82da88ffc4752430100f848e
+work/ice/RESTART/ice.restart_file:
+  copy: true
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/ice/ice.restart_file
   hashes:
-    binhash: bfb35ff90b9fa252a2f00c4c9c81076f
-    md5: 349c77f43b425e234b93487ed3a6cae9
+    binhash: 95250c61c2e535828b3839901947e1b7
+    md5: ed754d1d68ca8721d5a46a63b62d48aa
+work/ice/RESTART/iced.01010101:
+  copy: true
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/ice/iced.01010101
+  hashes:
+    binhash: 14301f76e683dff4a1b67135af4f33f2
+    md5: 9d1c203156e0c6d73ea9ed909c6d174e
 work/ice/RESTART/input_ice.nml:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ice/input_ice.nml
+  copy: true
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/ice/input_ice.nml
   hashes:
-    binhash: 8374ac2630446cc8b082a25719af5749
-    md5: 9fd47006fe3fea3b53d34b3c08d9cbdd
+    binhash: 657f4a26f36d3890db3275a12bd22e9f
+    md5: e2d6d0541795dd3eeae54cda28ecba96
 work/ice/RESTART/mice.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ice/mice.nc
+  copy: true
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/ice/mice.nc
   hashes:
-    binhash: 317a0739c3414e0954d38b0c6b397c9b
-    md5: edf38a02ed92cb8f7b4d630545b5d77f
-work/ocn/INPUT/csiro_bgc.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/csiro_bgc.res.nc
+    binhash: e637d8fd2afaf95482860287e77185e4
+    md5: bf9362bb0414815555808b5b893de2f9
+work/ocean/INPUT/ocean_solo.res:
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/ocean/ocean_solo.res
   hashes:
-    binhash: 9c4c91c2b9d3f0f9717c85df84bdbcbd
-    md5: c156abce30a390a1390f1e6787040b8a
-work/ocn/INPUT/csiro_bgc_sediment.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/csiro_bgc_sediment.res.nc
+    binhash: f0e278e239a27c1f9e98c258b2c63ed7
+    md5: a5985b5851fbb6e03a745a7d151bc9da
+work/ocean/INPUT/ocean_tracer.res:
+  fullpath: /short/public/access-esm/payu/restart/pre-industrial/restart000/ocean/ocean_tracer.res
   hashes:
-    binhash: 5119534a3fc5efdd0d5f6aba3ba715e8
-    md5: 10ff670ff1b787685308ae9f8124c132
-work/ocn/INPUT/data_table:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/data_table
-  hashes:
-    binhash: 2f91e1c5d1350a17d1d6a015256bea80
-    md5: fbd3dbd9e26ed4e20230ebbc550076db
-work/ocn/INPUT/diag_table:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/diag_table
-  hashes:
-    binhash: 7efc21d9b8e7993276ec48744603f9b4
-    md5: 496f9fcf67e46b1a95bd6117daada95f
-work/ocn/INPUT/field_table:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/field_table
-  hashes:
-    binhash: 547a73fe6c217a84bc68441853aed0f5
-    md5: 32c61c4903cb3e487358624f4b486066
-work/ocn/INPUT/input.nml:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/input.nml
-  hashes:
-    binhash: 7e40580ba389d7a4bbb08949d4b97479
-    md5: 54eb570194f279ddea887146336480b0
-work/ocn/INPUT/ocean_age.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_age.res.nc
-  hashes:
-    binhash: 81b7c641d7a8d2643ef812d0dc9c01dc
-    md5: f6168b88968e144eb45563e7f9e27d20
-work/ocn/INPUT/ocean_barotropic.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_barotropic.res.nc
-  hashes:
-    binhash: dd63996ab7a7f695546cf57583bf1119
-    md5: cad97e090057b36624cd4ecdbb9d1272
-work/ocn/INPUT/ocean_bih_friction.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_bih_friction.res.nc
-  hashes:
-    binhash: 2aee811e058a2bc31b806a424a50269d
-    md5: 72ec8b8695e1eb6f403d8d06107b3b37
-work/ocn/INPUT/ocean_density.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_density.res.nc
-  hashes:
-    binhash: 78421bc2f5bacd01553082223beed010
-    md5: 7f5c94f34476e503d58e839f76cea9d9
-work/ocn/INPUT/ocean_frazil.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_frazil.res.nc
-  hashes:
-    binhash: 70fdd6fd086c0e763d939c2c15cf7f14
-    md5: babfc243ddcc2d7d45201e147a8636d5
-work/ocn/INPUT/ocean_lap_friction.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_lap_friction.res.nc
-  hashes:
-    binhash: 0f5e7eb5fa119653fa45f6890dc48b25
-    md5: 696cdc63ab9a5b5e93ad1b1522280193
-work/ocn/INPUT/ocean_neutral.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_neutral.res.nc
-  hashes:
-    binhash: 7a8e097507660b7079c516af4f3f8943
-    md5: 5b815be8564e9a1cfe177d76e862f32e
-work/ocn/INPUT/ocean_pot_temp.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_pot_temp.res.nc
-  hashes:
-    binhash: bf12df7e1f446bd62a08866d6e496424
-    md5: 630287b6cf9672deb4f3ca54192118b5
-work/ocn/INPUT/ocean_sbc.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_sbc.res.nc
-  hashes:
-    binhash: 4abe5eefa8b02e856f49eba29e111f7e
-    md5: e91a1c2fe9daf5a47baaac18e7f80e65
-work/ocn/INPUT/ocean_sigma_transport.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_sigma_transport.res.nc
-  hashes:
-    binhash: 96ae31fc60d8080d23e768c2cd7db781
-    md5: fe527a9917d30955d0dc082271c1392f
-work/ocn/INPUT/ocean_solo.res:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_solo.res
-  hashes:
-    binhash: 209d05d19251a02adb6db59e2a66f37a
-    md5: 32be6a75b493ab6811b172423c7a1bcb
-work/ocn/INPUT/ocean_temp_salt.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_temp_salt.res.nc
-  hashes:
-    binhash: 8b13df2b3cfeefb279b52eac01ead06c
-    md5: 09e44fa6bc4e4f1e8d28b63c2da1bcf9
-work/ocn/INPUT/ocean_thickness.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_thickness.res.nc
-  hashes:
-    binhash: 399b2e2867532c12b5560d6829a34afa
-    md5: 4f624c61d5c2a87a798f3f8682a24851
-work/ocn/INPUT/ocean_tracer.res:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_tracer.res
-  hashes:
-    binhash: 110c070148a1a90220115828f1dc3741
-    md5: 2f17e73721faa24dfd5a160f88d75399
-work/ocn/INPUT/ocean_velocity.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_velocity.res.nc
-  hashes:
-    binhash: 15d1202d49075d31feccb1f371492cff
-    md5: 0819c58182abf79831c5613d260510fd
-work/ocn/INPUT/ocean_velocity_advection.res.nc:
-  fullpath: /short/v45/aph502/access-esm/archive/pre-industrial/restart009/ocn/ocean_velocity_advection.res.nc
-  hashes:
-    binhash: 8cf28a6aca9a0cf7193597117e525ffe
-    md5: e750a421a51e56bfe44c5c662e408e6c
+    binhash: f14f09e067143b214633a31924d16e35
+    md5: 720f9b92aafee66fc11ba8b32cf5823b

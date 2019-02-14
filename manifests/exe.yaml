@@ -1,18 +1,18 @@
 format: yamanifest
 version: 1.0
 ---
-work/atm/um_hg3.exe-20190129_15:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/bin/csiro/um_hg3.exe-20190129_15
+work/atmosphere/um_hg3.exe-20190129_15:
+  fullpath: /short/public/access-esm/payu/bin/csiro/um_hg3.exe-20190129_15
   hashes:
-    binhash: d40c3ccd9a8d0868dfdd0f94a5800097
+    binhash: 3b5f5da00dc2ba0f31c27c8b5a18cd70
     md5: 07c06a3e938e8664b4aa22fcd8719d76
 work/ice/cice4.1_access-mct-12p-20180108:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/bin/csiro/cice4.1_access-mct-12p-20180108
+  fullpath: /short/public/access-esm/payu/bin/csiro/cice4.1_access-mct-12p-20180108
   hashes:
-    binhash: b483698c3cbd822c0790c9c286805324
+    binhash: efa25d8d4904681fcdff932dabee6ede
     md5: d39da06b1b07e35f41192d4a5998c7bf
-work/ocn/fms_ACCESS-CM.dec18:
-  fullpath: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/bin/csiro/fms_ACCESS-CM.dec18
+work/ocean/fms_ACCESS-CM.dec18:
+  fullpath: /short/public/access-esm/payu/bin/csiro/fms_ACCESS-CM.dec18
   hashes:
-    binhash: 89c6e5236ec26443e6f573a7a6657878
+    binhash: a3655f18fac1bfa5475210ad022c70ac
     md5: 896120f51b4abedbffddc1545709bd56
