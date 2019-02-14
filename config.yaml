@@ -1,20 +1,21 @@
 jobname: pre-industrial
 queue: express
-walltime: 0:30:00
-ncpus: 112
+walltime: 2:00:00
+# ncpus: 288
 
+laboratory: access-esm
 model: access
 
 runspersub: 5
 
 # TODO: Should be a relative path so repository is portable
 # laboratory: ../..
-laboratory: /short/v45/aph502/access-esm
+# laboratory: /short/v45/aph502/access-esm
 
 submodels:
     - name: atm
       model: um
-      ncpus: 16
+      ncpus: 192
       exe: /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/bin/csiro/um_hg3.exe-20190129_15
       input:
         - /short/w35/saw562/scratch/access-esm/access-esm1.5-cmip6/payu/input/pre-industrial/atm
@@ -49,7 +50,7 @@ calendar:
 
     runtime:
         years: 0
-        months: 2
+        months: 1
         days: 0
 
 # userscripts:
