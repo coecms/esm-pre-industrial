@@ -1,16 +1,11 @@
 jobname: pre-industrial
 queue: express
 walltime: 2:00:00
-# ncpus: 288
 
 laboratory: access-esm
 model: access
 
 runspersub: 5
-
-# TODO: Should be a relative path so repository is portable
-# laboratory: ../..
-# laboratory: /short/v45/aph502/access-esm
 
 submodels:
     - name: atm
