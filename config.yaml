@@ -47,6 +47,8 @@ calendar:
         months: 1
         days: 0
 
+runspersub: 10
+
 stacksize: unlimited
 modules:
     - openmpi/1.10.7
