@@ -1,6 +1,6 @@
 jobname: pre-industrial
 queue: express
-walltime: 3:00:00
+walltime: 4:00:00
 
 laboratory: access-esm
 model: access
@@ -50,6 +50,6 @@ calendar:
         months: 1
         days: 0
 
-runspersub: 10
+runspersub: 5
 
 stacksize: unlimited
