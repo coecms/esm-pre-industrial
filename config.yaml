@@ -53,5 +53,3 @@ calendar:
 runspersub: 10
 
 stacksize: unlimited
-modules:
-    - openmpi/1.10.7
