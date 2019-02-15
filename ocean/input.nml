@@ -492,7 +492,6 @@
 /
 
  &ocean_tracer_nml
-      diag_step=120
       debug_this_module=.false.
       zero_tendency=.false.
       remap_depth_to_s_init=.false.
