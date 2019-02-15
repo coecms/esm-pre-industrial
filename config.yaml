@@ -19,6 +19,7 @@ submodels:
       exe: /short/public/access-esm/payu/bin/csiro/fms_ACCESS-CM.dec18
       input:
         - /short/public/access-esm/payu/input/common/ocean
+        - /short/public/access-esm/payu/input/pre-industrial/ocean
 
     - name: ice
       model: cice

@@ -347,6 +347,26 @@ work/ocean/INPUT/basin_mask.nc:
   hashes:
     binhash: ec027a0ec1c23ee98ac0b4c743b34fc7
     md5: 20fd8740f24ca95c7c086343077e9c0d
+work/ocean/INPUT/bgc_param.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/bgc_param.nc
+  hashes:
+    binhash: e0cc213b2ea68135eaa68032a1a5beed
+    md5: 7162c91ab9399c7a225fcb03593843ee
+work/ocean/INPUT/cfc_auscom.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/cfc_auscom.nc
+  hashes:
+    binhash: 7dca92d454bd2a9e61bff6a3f3f05e9a
+    md5: 38660c8a5de3e3b63d2ae7ba5020d515
+work/ocean/INPUT/co2_obs.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/co2_obs.nc
+  hashes:
+    binhash: b81d35e88d9eb11b56993eaebfff80c8
+    md5: bfc3011737ab384d770b937b269e50fc
+work/ocean/INPUT/dust.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/dust.nc
+  hashes:
+    binhash: b028f0bfcee59018b4f1ca454f4835bd
+    md5: bfbbea8ac46a932d0ec8631afbfc2ae2
 work/ocean/INPUT/geothermal_heating.nc:
   fullpath: /short/public/access-esm/payu/input/common/ocean/geothermal_heating.nc
   hashes:
@@ -357,6 +377,31 @@ work/ocean/INPUT/grid_spec.nc:
   hashes:
     binhash: b721a1afe79b20b3aec3a10992b12dd7
     md5: b9adc1e552201aa3abc6efb72786ec93
+work/ocean/INPUT/ocmip2_abiotic_c14_atm_hist_om3_bc-1-9999.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/ocmip2_abiotic_c14_atm_hist_om3_bc-1-9999.nc
+  hashes:
+    binhash: 88fa0c0d7388c425737bd67ac3ed090c
+    md5: e91a04235ab63ef060d0c6e350ed9581
+work/ocean/INPUT/ocmip2_fice_monthly_om1p5_bc.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/ocmip2_fice_monthly_om1p5_bc.nc
+  hashes:
+    binhash: 3bf8921412926162b8d1c91ea407be0d
+    md5: c0ed75eef44962dbe6fc9f61dbd228a9
+work/ocean/INPUT/ocmip2_press_monthly_om1p5_bc.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/ocmip2_press_monthly_om1p5_bc.nc
+  hashes:
+    binhash: 5948c29361351838387e47e36ee1e6f3
+    md5: 2e71cbb78c052e06e3df20f862928da2
+work/ocean/INPUT/ocmip2_siple_co2_atm_am2_bc-1-9999.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/ocmip2_siple_co2_atm_am2_bc-1-9999.nc
+  hashes:
+    binhash: ee9441065e12a3882fc49f8ad4c2fccb
+    md5: bf1db4228eeacb676da968073b8c5848
+work/ocean/INPUT/ocmip2_xkw_monthly_om1p5_bc.nc:
+  fullpath: /short/public/access-esm/payu/input/pre-industrial/ocean/ocmip2_xkw_monthly_om1p5_bc.nc
+  hashes:
+    binhash: 6fc4ac8ca963eea9cfceafa450566cd9
+    md5: 348a035bed83e280bb0a1de0066947fc
 work/ocean/INPUT/roughness_amp.nc:
   fullpath: /short/public/access-esm/payu/input/common/ocean/roughness_amp.nc
   hashes:
