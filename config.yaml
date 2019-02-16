@@ -1,6 +1,6 @@
 jobname: pre-industrial
-queue: express
-walltime: 5:00:00
+queue: normal
+walltime: 20:00:00
 
 laboratory: access-esm
 model: access
