@@ -16,7 +16,7 @@ submodels:
     - name: ocean
       model: mom
       ncpus: 84
-      exe: /short/public/access-esm/payu/bin/csiro/fms_ACCESS-CM.dec18
+      exe: /short/public/access-esm/payu/bin/coe/fms_ACCESS-CM.x
       input:
         - /short/public/access-esm/payu/input/common/ocean
         - /short/public/access-esm/payu/input/pre-industrial/ocean
