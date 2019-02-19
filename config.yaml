@@ -38,7 +38,7 @@ collate:
    exe: /short/public/access-esm/payu/bin/mppnccombine
    restart: True
 
-archive: True
+archive: False
 
 restart: /short/public/access-esm/payu/restart/pre-industrial
 
