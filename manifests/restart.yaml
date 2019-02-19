@@ -2,97 +2,97 @@ format: yamanifest
 version: 1.0
 ---
 work/atmosphere/CNTLALL:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/CNTLALL
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/CNTLALL
   hashes:
     binhash: 0f6a9126157d719f0c1074cdb584d26c
     md5: f60b5e03683f4c72cc3fca47a0e16f40
 work/atmosphere/CONTCNTL:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/CONTCNTL
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/CONTCNTL
   hashes:
     binhash: 149febfa41df5e3865cb838bf823f123
     md5: 7125cdf5fd041856bfefce47256ea2a3
 work/atmosphere/INITHIS:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/INITHIS
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/INITHIS
   hashes:
     binhash: 5e45ff3005ce2854e85c9ae55b3b3cbf
     md5: d0d6100c39ef0dde8d4106316bbe8703
 work/atmosphere/SIZES:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/SIZES
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/SIZES
   hashes:
     binhash: 676af5484dab93f2198b4e6a9fe8aa03
     md5: dfa5d595a84c918ffb39b88a92b7a65d
 work/atmosphere/STASHC:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/STASHC
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/STASHC
   hashes:
     binhash: d21295662d8a9ddaa783f55f55db3939
     md5: a30e18080c39e4febfc730e244f03279
 work/atmosphere/UAFILES_A:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/UAFILES_A
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/UAFILES_A
   hashes:
     binhash: f7978ae7d87906a24f69b6fa7b3376db
     md5: 89de66fc629bbf4e39994b433f737f60
 work/atmosphere/UAFLDS_A:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/UAFLDS_A
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/UAFLDS_A
   hashes:
     binhash: 958840552c7eb291f38a1cf4a94a6cbd
     md5: 42abdb31b6953d994d7c31125bf025d4
 work/atmosphere/cable.nml:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/cable.nml
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/cable.nml
   hashes:
     binhash: b9ba017a5c41364f7977a338c1a85c74
     md5: c41274e9e915be62b01ad3c88d012628
 work/atmosphere/errflag:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/errflag
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/errflag
   hashes:
     binhash: 91f5ad4571a4ca1f34b79504a2e40545
     md5: bb5517eec4fd1a0ab152958f702a366e
 work/atmosphere/exstat:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/exstat
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/exstat
   hashes:
     binhash: e08aa8bc4b25bb307ac9cb3a097aea72
     md5: 9c8698bf0dd61c4390226dc56621204d
 work/atmosphere/ftxx:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/ftxx
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/ftxx
   hashes:
     binhash: d3ce7f837c98b1b54f5d2ed47ec07b7e
     md5: 68b329da9893e34099c7d8ad5cb9c940
 work/atmosphere/ftxx.new:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/ftxx.new
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/ftxx.new
   hashes:
     binhash: f69966b294446749fe75f83ab5481faf
     md5: 68b329da9893e34099c7d8ad5cb9c940
 work/atmosphere/ftxx.vars:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/ftxx.vars
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/ftxx.vars
   hashes:
     binhash: 8e6e629faaa95e920042f87a263ed6fc
     md5: 68b329da9893e34099c7d8ad5cb9c940
 work/atmosphere/hnlist:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/hnlist
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/hnlist
   hashes:
     binhash: 150f7232950e8cc77aa24f119daa3078
     md5: 987f12c9925ad0c5934d84d4b1b3ba34
 work/atmosphere/ihist:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/ihist
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/ihist
   hashes:
     binhash: 9952a619922d09b04e5ad0d22bdc8648
     md5: 919469b713a0d0c030e6186363be1201
 work/atmosphere/namelists:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/namelists
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/namelists
   hashes:
     binhash: a1c6adba948533efbf4769e80efd2623
-    md5: 4635eb49475163e059686d09049025c4
+    md5: e1d7d657ad600a9f1010048baf6519e6
 work/atmosphere/prefix.CNTLATM:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/prefix.CNTLATM
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/prefix.CNTLATM
   hashes:
     binhash: 2bd9314ccc4f687c27bf0a984456530a
     md5: 68b329da9893e34099c7d8ad5cb9c940
 work/atmosphere/prefix.CNTLGEN:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/prefix.CNTLGEN
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/prefix.CNTLGEN
   hashes:
     binhash: 2e9aabbfa61d6e593d733530fe688af0
     md5: 9410902eec47522582286e062d10ed81
 work/atmosphere/prefix.PRESM_A:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/prefix.PRESM_A
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/prefix.PRESM_A
   hashes:
     binhash: b6afd46b97df92d85c86a789d1cf5f2c
     md5: 9e3c40fb0e4faea3bde157297a8f9208
@@ -102,61 +102,61 @@ work/atmosphere/restart_dump.astart:
     binhash: 07a8188648ab2973db09aefaebceec12
     md5: 566b3345224b25fddbdb7514cb1943a5
 work/atmosphere/um_env.py:
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/atmosphere/um_env.py
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/atmosphere/um_env.py
   hashes:
     binhash: e6a5d7bf524a92bfd3901f8f6a573d59
     md5: 58f2a0ebf2aef6551b7b3b1100b17c55
 work/coupler/a2i.nc:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/coupler/a2i.nc
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/coupler/a2i.nc
   hashes:
     binhash: d580904037c291e5aa156d5f0ae16354
     md5: a92638a158e41e79e21f536ec0f7fa58
 work/coupler/i2a.nc:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/coupler/i2a.nc
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/coupler/i2a.nc
   hashes:
     binhash: e4cdb79d257eda8e1a92836f44f8e0de
     md5: dbe94d41f2b0750c85a6390abbc27165
 work/coupler/namcouple:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/coupler/namcouple
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/coupler/namcouple
   hashes:
     binhash: c0ecc5346d74f9f9141aabb42d2e4f53
-    md5: 917ecbf6ada265243ed28941721a06e0
+    md5: bb97a3315879ac46b7cb712e0e8823f2
 work/coupler/o2i.nc:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/coupler/o2i.nc
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/coupler/o2i.nc
   hashes:
     binhash: fce467d1bcb26162ed5140877559240c
     md5: 27077e98373cc769dbcad9ab3709f8e9
 work/ice/RESTART/cice_in.nml:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/ice/cice_in.nml
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/ice/RESTART/cice_in.nml
   hashes:
     binhash: 88378ce8873897ea6d536650569e5c86
     md5: d2e88b703bcccd63970919096c206a23
 work/ice/RESTART/ice.restart_file:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/ice/ice.restart_file
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/ice/RESTART/ice.restart_file
   hashes:
     binhash: aa3374056b8a22c7ea64b5b725e2b1b4
     md5: 71d4d27d1869fa52e08ba112015880d7
 work/ice/RESTART/iced.01030201:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/ice/iced.01030201
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/ice/RESTART/iced.01030201
   hashes:
     binhash: 7e106cba49a7214f1dfc87bb4d819677
     md5: 4ce4abcf247bd4eb5e88a0b3abdf5cc9
 work/ice/RESTART/input_ice.nml:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/ice/input_ice.nml
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/ice/RESTART/input_ice.nml
   hashes:
     binhash: 30c0cefb9a47f6c0beef9fbf162175dd
     md5: f497fa49dfd7925eefebe5c7640f4956
 work/ice/RESTART/mice.nc:
   copy: true
-  fullpath: /short/g40/aph502/access-esm/archive/pre-industrial/restart007/ice/mice.nc
+  fullpath: /short/g40/aph502/access-esm/work/pre-industrial/ice/RESTART/mice.nc
   hashes:
     binhash: 3876f0763e0272fa93e0c798bcfda69b
     md5: 78323d5e64b05904635260b1acc6c023
