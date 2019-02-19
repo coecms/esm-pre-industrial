@@ -23,7 +23,7 @@
   , lonpnt(1)      =   0.
   , latpnt(2)      = -65.
   , lonpnt(2)      = -45.
-  , dbug           = .false.
+  , dbug           = .true.
   , histfreq       = 'd','m','x','x','x'
   , histfreq_n     = 1, 1, 0, 0, 0
   , hist_avg       = .true.
