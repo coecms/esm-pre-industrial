@@ -2,6 +2,7 @@ jobname: pre-industrial
 queue: normal
 walltime: 20:00:00
 
+# note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
 laboratory: access-esm
 model: access
 
