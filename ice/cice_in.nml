@@ -11,7 +11,7 @@
   , restart_dir    = 'RESTART/'
   , restart_file   = 'iced'
   , pointer_file   = 'RESTART/ice.restart_file'
-  , dumpfreq       = 'm'
+  , dumpfreq       = 'y'
   , dumpfreq_n     = 1
   , diagfreq       = 24
   , diag_type      = 'file'
