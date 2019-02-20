@@ -37,6 +37,7 @@ submodels:
         - /short/public/access-esm/payu/input/common/coupler
 
 collate:
+   mem: 4GB
    exe: /short/public/access-esm/payu/bin/mppnccombine
    restart: True
 
