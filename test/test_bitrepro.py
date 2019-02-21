@@ -7,7 +7,7 @@ def test_run_model():
 
     cmd = 'payu sweep --hard'
     sp.check_call(shlex.split(cmd))
-    cmd = 'payu run'
+    cmd = 'payu run -r'
     sp.check_call(shlex.split(cmd))
 
 def test_atmosphere():
