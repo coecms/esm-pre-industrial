@@ -5,7 +5,7 @@
 Get payu:
 
     $ module use /g/data3/hh5/public/modules
-    $ module load git conda payu
+    $ module load git conda
 
 Create the laboratory:
 
@@ -98,7 +98,7 @@ This can most easily been done by adding the line
 
 to your `~/.bashrc`, then logging back in. Then all you have to do is
 
-    $ module load payu
+    $ module load conda
 
 to load the **payu** module. We also recommend you load a more recent version of `git` with
 
@@ -253,7 +253,7 @@ of CICE will be in the `ice` subdirectory.
 
 ## Running the Model
 
-If you have set up the modules system to use the `/g/data3/hh5/public/modules` folder, a simple `module load payu` should give you access to the **payu** system.
+If you have set up the modules system to use the `/g/data3/hh5/public/modules` folder, a simple `module load conda` should give you access to the **payu** system.
 
 From the control directory, type
 
