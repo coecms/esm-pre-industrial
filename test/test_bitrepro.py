@@ -1,3 +1,15 @@
+import os
+import shlex
+import subprocess as sp
+import time
+
+def test_run_model():
+
+    cmd = 'payu sweep --hard'
+    sp.check_call(shlex.split(cmd))
+    cmd = 'payu run'
+    sp.check_call(shlex.split(cmd))
+
 def test_atmosphere():
     """
     Test absolute norms are the same as truth

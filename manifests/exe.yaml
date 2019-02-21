@@ -11,8 +11,8 @@ work/ice/cice4.1_access-mct-12p-20180108:
   hashes:
     binhash: efa25d8d4904681fcdff932dabee6ede
     md5: d39da06b1b07e35f41192d4a5998c7bf
-work/ocean/fms_ACCESS-CM.dec18:
-  fullpath: /short/public/access-esm/payu/bin/csiro/fms_ACCESS-CM.dec18
+work/ocean/fms_ACCESS-CM.x:
+  fullpath: /short/public/access-esm/payu/bin/coe/fms_ACCESS-CM.x
   hashes:
-    binhash: a3655f18fac1bfa5475210ad022c70ac
-    md5: 896120f51b4abedbffddc1545709bd56
+    binhash: db210dd0fdccd0e066cd79df800e24c1
+    md5: 0be4d5b79d0b6873ff89e9b7f06a1f8e
