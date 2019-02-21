@@ -57,7 +57,7 @@ The ESM 1.5 subversion of ACCESS specifically contains these models:
 | Coupler    | OASIS-MCT  | 3.5     |
 
 Pre-compiled executables for these models are available on raijin at
-`/short/public/access-esm/**payu**/bin/csiro/`.
+`/short/public/access-esm/payu/bin/csiro/`.
 
 ## Setting up ACCESS-ESM with **payu**
 
@@ -70,7 +70,7 @@ This can most easily been done by adding the line
 
 to your `~/.bashrc`, then logging back in. Then all you have to do is
 
-    $ module load **payu**
+    $ module load payu
 
 to load the **payu** module. We also recommend you load a more recent version of `git` with
 
@@ -120,30 +120,30 @@ The main model. This mainly tells **payu** which driver to use. **payu** knows t
         - name: atmosphere
           model: um
           ncpus: 192
-          exe: /short/public/access-esm/**payu**/bin/csiro/um_hg3.exe-20190129_15
+          exe: /short/public/access-esm/payu/bin/csiro/um_hg3.exe-20190129_15
           input:
-            - /short/public/access-esm/**payu**/input/pre-industrial/atmosphere
+            - /short/public/access-esm/payu/input/pre-industrial/atmosphere
 
         - name: ocean
           model: mom
           ncpus: 84
-          exe: /short/public/access-esm/**payu**/bin/coe/fms_ACCESS-CM.x
+          exe: /short/public/access-esm/payu/bin/coe/fms_ACCESS-CM.x
           input:
-            - /short/public/access-esm/**payu**/input/common/ocean
-            - /short/public/access-esm/**payu**/input/pre-industrial/ocean
+            - /short/public/access-esm/payu/input/common/ocean
+            - /short/public/access-esm/payu/input/pre-industrial/ocean
 
         - name: ice
           model: cice
           ncpus: 12
-          exe: /short/public/access-esm/**payu**/bin/csiro/cice4.1_access-mct-12p-20180108
+          exe: /short/public/access-esm/payu/bin/csiro/cice4.1_access-mct-12p-20180108
           input:
-            - /short/public/access-esm/**payu**/input/common/ice
+            - /short/public/access-esm/payu/input/common/ice
 
         - name: coupler
           model: oasis
           ncpus: 0
           input:
-            - /short/public/access-esm/**payu**/input/common/coupler
+            - /short/public/access-esm/payu/input/common/coupler
 
 This is probably the meatiest part of the configuration, so let's look at it in more detail.
 
@@ -158,13 +158,13 @@ The **name** is more than a useful reminder of what the model is.
 **payu** expects this submodel's configuration files in a subdirectory with that name.
 
     collate:
-       exe: /short/public/access-esm/**payu**/bin/mppnccombine
+       exe: /short/public/access-esm/payu/bin/mppnccombine
        restart: true
        mem: 4GB
 
 Ask Aidan
 
-    restart: /short/public/access-esm/**payu**/restart/pre-industrial
+    restart: /short/public/access-esm/payu/restart/pre-industrial
 
 Ask Aidan
 
@@ -228,25 +228,25 @@ If you have set up the modules system to use the `/g/data3/hh5/public/modules` f
 
 From the control directory, type
 
-    $ **payu** setup
+    $ payu setup
 
 This will prepare a the model run based on the configuration of the experiment.
 It will setup `work` and `archive` directories and link to them from within the
 configuration directory.
 You don't have to do that, as the run command also sets it up, but it helps to check for errors.
 
-    $ **payu** sweep
+    $ payu sweep
 
 This command removes the `work` directory again, but leaves the `archive`.
 You can have it remove the `archive` as well by appending `--hard` to the command.
 
 Finally,
 
-    $ **payu** run
+    $ payu run
 
 will submit a single run to the queue.
 It will start from the beginning (as indicated by the `start` section in the `config.yaml`) if it has not run before (or if you have run `**payu** sweep --hard`), otherwise it will continue from the end of the last run.
 
 To automatically submit several runs (and to take advantage of the `runspersub` directive), you use the `-n` option:
 
-    $ **payu** run -n 7
+    $ payu run -n 7
