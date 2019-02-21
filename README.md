@@ -7,11 +7,7 @@ Get payu:
     $ module use /g/data3/hh5/public/modules
     $ module load git conda/analysis3-unstable
 
-Create the laboratory:
-
-    $ mkdir -p /short/$PROJECT/$USER/access-esm
-
-Create the configuration directory:
+Create a directory in which to keep the model configurations:
 
     $ mkdir -p ~/access-esm
     $ cd ~/access-esm
