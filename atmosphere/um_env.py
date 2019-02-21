@@ -6,7 +6,7 @@ vars = {
 'FASTRUN': 'true',
 'IDEALISE': '',
 'PAREXE': 'parexe',
-'PRINT_STATUS': 'PrStatus_Min',
+'PRINT_STATUS': 'PrStatus_Diag',
 'RPSEED': '',
 'RUNID': 'PI-01',
 'TYPE': 'NRUN',
