@@ -1,5 +1,33 @@
 # ACCESS-ESM with **payu**
 
+## Quickstart Guide
+
+Get payu:
+
+    $ module use /g/data3/hh5/public/modules
+    $ module load git conda payu
+
+Create the laboratory:
+
+    $ mkdir -p /short/$PROJECT/$USER/access-esm
+
+Create the configuration directory:
+
+    $ mkdir -p ~/access-esm
+    $ cd ~/access-esm
+    $ git clone https://github.com/coecms/esm-pre-industrial pre-industrial
+    $ cd pre-industrial
+
+Run the model:
+
+    $ payu sweep
+    $ payu run
+
+Check the output:
+
+    $ ls archive/
+
+
 ## Understanding **payu**
 
 **payu** was designed to help users of the NCI system run climate models.
@@ -224,7 +252,7 @@ of CICE will be in the `ice` subdirectory.
 
 ## Running the Model
 
-If you have set up the modules system to use the `/g/data3/hh5/public/modules` folder, a simple `module load **payu**` should give you access to the **payu** system.
+If you have set up the modules system to use the `/g/data3/hh5/public/modules` folder, a simple `module load payu` should give you access to the **payu** system.
 
 From the control directory, type
 
