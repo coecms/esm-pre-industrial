@@ -5,7 +5,7 @@
 Get payu:
 
     $ module use /g/data3/hh5/public/modules
-    $ module load git conda
+    $ module load git conda/analysis3-unstable
 
 Create the laboratory:
 
@@ -15,12 +15,11 @@ Create the configuration directory:
 
     $ mkdir -p ~/access-esm
     $ cd ~/access-esm
-    $ git clone https://github.com/coecms/esm-pre-industrial pre-industrial
-    $ cd pre-industrial
+    $ git clone https://github.com/coecms/esm-pre-industrial
+    $ cd esm-pre-industrial
 
 Run the model:
 
-    $ payu sweep
     $ payu run
 
 Check the output:
@@ -98,7 +97,7 @@ This can most easily been done by adding the line
 
 to your `~/.bashrc`, then logging back in. Then all you have to do is
 
-    $ module load conda
+    $ module load conda/analysis3-unstable
 
 to load the **payu** module. We also recommend you load a more recent version of `git` with
 
@@ -115,8 +114,8 @@ Create a directory in your home directory to keep all the Control Directories yo
 
 Then clone the most recent version of the ACCESS-ESM control directory:
 
-    $ git clone https://github.com/coecms/esm-pre-industrial pre-industrial
-    $ cd pre-industrial
+    $ git clone https://github.com/coecms/esm-pre-industrial
+    $ cd esm-pre-industrial
 
 (Note: Currently we only have the pre-industrial model set up, other versions will follow later.)
 
@@ -195,7 +194,7 @@ Ask Aidan
     restart: /short/public/access-esm/payu/restart/pre-industrial
 
 This is the location of the warm restart files.
-**payu** will use the files in there for the initial run.
+**payu** will use the restart files in there for the initial run.
 
     calendar:
         start:
@@ -253,7 +252,7 @@ of CICE will be in the `ice` subdirectory.
 
 ## Running the Model
 
-If you have set up the modules system to use the `/g/data3/hh5/public/modules` folder, a simple `module load conda` should give you access to the **payu** system.
+If you have set up the modules system to use the `/g/data3/hh5/public/modules` folder, a simple `module load conda/analysis3-unstable` should give you access to the **payu** system.
 
 From the control directory, type
 
