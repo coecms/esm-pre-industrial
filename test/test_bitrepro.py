@@ -17,5 +17,5 @@ def test_ocean():
          open('work/ocean/stdout.rank.1.192','r') as test:
         lines = [line for line in test if '[chksum]' in line]
         assert(len(lines) == 1515)
-        for i, (l_truth, l_test) in enumerate(zip(truth.readlines(), lines)):
+        for l_truth, l_test in zip(truth.readlines(), lines):
             assert(l_truth == l_test)
