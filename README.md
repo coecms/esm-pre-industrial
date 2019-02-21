@@ -43,18 +43,18 @@ This will not be part of this document.
 
 To understand **payu**, it helps to distinguish certain terms:
 
--   The **Laboratory** is a directory where all parts of the model are kept.
+-   The **laboratory** is a directory where all parts of the model are kept.
     It is typically in the user's short directory, usually at `/short/$PROJECT/$USER/<MODEL>`
 -   The **Control Directory** is the directory where the model configuration is
-    kept and where from where the model is run.
+    kept and from where the model is run.
 -   The **work** directory is where the model will actually be run.
     It is typically a subdirectory of the Laboratory.
     Submodels will have their own subdirectories in the work directory, named
     after their name in the master configuration file.
--   The **archive** directory is where **payu** pushes all output files after each run.
+    It is ephemeral, that means payu will clean it up after the run.
+-   The **archive** directory is where **payu** puts all output files after each run.
 
-The **work** and **archive** directories will be automatically created by **payu**, the
-other two you will have to create.
+The **work** and **archive** directories will be automatically created by **payu**.
 
 ### The master configuration file
 
@@ -194,7 +194,8 @@ Ask Aidan
 
     restart: /short/public/access-esm/payu/restart/pre-industrial
 
-Ask Aidan
+This is the location of the warm restart files.
+**payu** will use the files in there for the initial run.
 
     calendar:
         start:
@@ -231,7 +232,7 @@ The **name** in `config.yaml` for the atmosphere submodel is "atmosphere", so th
 
 There are many configuration files, but I want to note the `um_env.py`.
 This file is used to set environment variables for the UM.
-The UM driver of **payu** will look for this file and execute it.
+The UM driver of **payu** will look for this file and add these definitions to the environment when it runs the model.
 
 ### Setting up the Ocean Submodel
 
@@ -242,7 +243,7 @@ of MOM will be in the `ocean` subdirectory.
     data_table  diag_table  field_table  input.nml
 
 
-### Setting up the Ocean Submodel
+### Setting up the Ice Submodel
 
 The **name** in `config.yaml` for the ice submodel is "ice", so the configuration
 of CICE will be in the `ice` subdirectory.
@@ -266,14 +267,13 @@ You don't have to do that, as the run command also sets it up, but it helps to c
     $ payu sweep
 
 This command removes the `work` directory again, but leaves the `archive`.
-You can have it remove the `archive` as well by appending `--hard` to the command.
 
 Finally,
 
     $ payu run
 
 will submit a single run to the queue.
-It will start from the beginning (as indicated by the `start` section in the `config.yaml`) if it has not run before (or if you have run `**payu** sweep --hard`), otherwise it will continue from the end of the last run.
+It will start from the beginning (as indicated by the `start` section in the `config.yaml`) if it has not run before.
 
 To automatically submit several runs (and to take advantage of the `runspersub` directive), you use the `-n` option:
 
