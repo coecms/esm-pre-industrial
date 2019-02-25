@@ -263,67 +263,67 @@ work/atmosphere/INPUT/volcts_18502000ave.dat:
     md5: 47bd369c750be55d706ab60c78bc7aee
 work/coupler/areas.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/areas.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/areas.nc
   hashes:
     binhash: f4c21405eaffc7710bb6fd920f92f003
     md5: 1aac9e2f82d96176f7b87ba1efc8784e
 work/coupler/cf_name_table.txt:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/cf_name_table.txt
+  fullpath: /short/public/access-esm/payu/input/common/coupler/cf_name_table.txt
   hashes:
     binhash: e049950d418d6d7bafa552e79f3ceb44
     md5: 74333d6fa3153ac294a74a506792375c
 work/coupler/grids.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/grids.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/grids.nc
   hashes:
     binhash: 5379a757dcb66dd06d375289e9d99fb9
     md5: 2348de62f5fe4d55ec849f79e5d027fd
 work/coupler/masks.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/masks.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/masks.nc
   hashes:
     binhash: 94049130c90b4b1132de57526020999b
     md5: 0a12503901fd3d595bc25b5d3008f9d3
 work/coupler/rmp_cice_to_um1t_CONSERV_FRACNNEI.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/rmp_cice_to_um1t_CONSERV_FRACNNEI.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/rmp_cice_to_um1t_CONSERV_FRACNNEI.nc
   hashes:
     binhash: d36f9af6ca9916803070c3cff78d2490
     md5: a8129dba5b3a7f70a5bc2fbf7f0e4f68
 work/coupler/rmp_cice_to_um1u_CONSERV_FRACNNEI.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/rmp_cice_to_um1u_CONSERV_FRACNNEI.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/rmp_cice_to_um1u_CONSERV_FRACNNEI.nc
   hashes:
     binhash: e598f7e84a2fdeff76342321aef7ab5c
     md5: 6fc856e7c2014e20903a01cdd61f4f2c
 work/coupler/rmp_cice_to_um1v_CONSERV_FRACNNEI.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/rmp_cice_to_um1v_CONSERV_FRACNNEI.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/rmp_cice_to_um1v_CONSERV_FRACNNEI.nc
   hashes:
     binhash: bf608fa408285ce462921ec07326c58d
     md5: a2a7d940a9eaab59ec8fa49154116a64
 work/coupler/rmp_um1t_to_cice_CONSERV_DESTAREA.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/rmp_um1t_to_cice_CONSERV_DESTAREA.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/rmp_um1t_to_cice_CONSERV_DESTAREA.nc
   hashes:
     binhash: a7bf50b1c14d9173445df833ebde0b3c
     md5: 25be6489585df07097d4b6009bf23ec2
 work/coupler/rmp_um1t_to_cice_CONSERV_FRACNNEI.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/rmp_um1t_to_cice_CONSERV_FRACNNEI.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/rmp_um1t_to_cice_CONSERV_FRACNNEI.nc
   hashes:
     binhash: c59794b2242b305309fd470565575ea4
     md5: 269086623444b48d0cd481e69d4bdc5f
 work/coupler/rmp_um1u_to_cice_CONSERV_FRACNNEI.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/rmp_um1u_to_cice_CONSERV_FRACNNEI.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/rmp_um1u_to_cice_CONSERV_FRACNNEI.nc
   hashes:
     binhash: b05871ec1c8388028167ce24a31bed7b
     md5: 58ea836bf1e12d5fc21460763b02548f
 work/coupler/rmp_um1v_to_cice_CONSERV_FRACNNEI.nc:
   copy: true
-  fullpath: /short/v45/aph502/access-esm/work/pre-industrial/coupler/rmp_um1v_to_cice_CONSERV_FRACNNEI.nc
+  fullpath: /short/public/access-esm/payu/input/common/coupler/rmp_um1v_to_cice_CONSERV_FRACNNEI.nc
   hashes:
     binhash: a7f0e9bf52afc9d4cef2cf03c4edbb72
     md5: 3bf9569f34b657f2ecab8ef5c93e7659
