@@ -91,11 +91,13 @@ This can most easily been done by adding the line
 
     module use /g/data3/hh5/public/modules
 
-to your `~/.bashrc`, then logging back in. Then all you have to do is
+to your `~/.profile`, then logging back in. Then all you have to do is
 
     $ module load conda/analysis3-unstable
 
-to load the **payu** module. We also recommend you load a more recent version of `git` with
+to load the **payu** module.
+Please check again after 7/2019 to see whether it has been made part of the stable conda module.
+We also recommend you load a more recent version of `git` with
 
     $ module load git
 
