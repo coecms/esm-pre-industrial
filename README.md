@@ -4,23 +4,23 @@
 
 Get payu:
 
-    $ module use /g/data3/hh5/public/modules
-    $ module load git conda/analysis3-unstable
+    module use /g/data3/hh5/public/modules
+    module load git conda/analysis3-unstable
 
 Create a directory in which to keep the model configurations:
 
-    $ mkdir -p ~/access-esm
-    $ cd ~/access-esm
-    $ git clone https://github.com/coecms/esm-pre-industrial
-    $ cd esm-pre-industrial
+    mkdir -p ~/access-esm
+    cd ~/access-esm
+    git clone https://github.com/coecms/esm-pre-industrial
+    cd esm-pre-industrial
 
 Run the model:
 
-    $ payu run
+    payu run
 
 Check the output:
 
-    $ ls archive/
+    ls archive/
 
 
 ## Understanding **payu**
