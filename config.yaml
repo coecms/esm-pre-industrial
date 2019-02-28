@@ -57,4 +57,4 @@ runspersub: 5
 
 stacksize: unlimited
 
-qsub_flags: "-W umask=027"
+qsub_flags: -W umask=027
