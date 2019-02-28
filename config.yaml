@@ -56,3 +56,5 @@ calendar:
 runspersub: 5
 
 stacksize: unlimited
+
+qsub_flags: "-W umask=022"
