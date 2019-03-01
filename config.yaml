@@ -1,6 +1,6 @@
 jobname: pre-industrial
 queue: normal
-walltime: 20:00:00
+walltime: 24:00:00
 
 # note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
 laboratory: access-esm
@@ -53,7 +53,7 @@ calendar:
         months: 0
         days: 0
 
-runspersub: 5
+runspersub: 7
 
 stacksize: unlimited
 
