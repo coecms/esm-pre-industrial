@@ -93,13 +93,13 @@ This can most easily been done by adding the line
 
 to your `~/.profile`, then logging back in. Then all you have to do is
 
-    $ module load conda/analysis3-unstable
+    module load conda/analysis3-unstable
 
 to load the **payu** module.
 Please check again after 7/2019 to see whether it has been made part of the stable conda module.
 We also recommend you load a more recent version of `git` with
 
-    $ module load git
+    module load git
 
 as **payu** will use git to keep track of all configuration changes automatically.
 
@@ -107,13 +107,13 @@ as **payu** will use git to keep track of all configuration changes automaticall
 
 Create a directory in your home directory to keep all the Control Directories you might want.
 
-    $ mkdir ~/ACCESS-ESM
-    $ cd ~/ACCESS-ESM
+    mkdir ~/ACCESS-ESM
+    cd ~/ACCESS-ESM
 
 Then clone the most recent version of the ACCESS-ESM control directory:
 
-    $ git clone https://github.com/coecms/esm-pre-industrial
-    $ cd esm-pre-industrial
+    git clone https://github.com/coecms/esm-pre-industrial
+    cd esm-pre-industrial
 
 (Note: Currently we only have the pre-industrial model set up, other versions will follow later.)
 
@@ -221,7 +221,7 @@ Then it would automatically resubmit another pbs job to model years 106 and 107,
 
 The **name** in `config.yaml` for the atmosphere submodel is "atmosphere", so the configuration of the UM will be in the `atmosphere` subdirectory.
 
-    $ ls atmosphere/
+    ls atmosphere/
     CNTLALL   SIZES      __pycache__  ftxx       ihist          prefix.CNTLATM
     CONTCNTL  STASHC     cable.nml    ftxx.new   input_atm.nml  prefix.CNTLGEN
     INITHIS   UAFILES_A  errflag      ftxx.vars  namelists      prefix.PRESM_A
@@ -236,7 +236,7 @@ The UM driver of **payu** will look for this file and add these definitions to t
 The **name** in `config.yaml` for the ocean submodel is "ocean", so the configuration
 of MOM will be in the `ocean` subdirectory.
 
-    $ ls ocean
+    ls ocean
     data_table  diag_table  field_table  input.nml
 
 
@@ -245,7 +245,7 @@ of MOM will be in the `ocean` subdirectory.
 The **name** in `config.yaml` for the ice submodel is "ice", so the configuration
 of CICE will be in the `ice` subdirectory.
 
-    $ ls ice/
+    ls ice/
     cice_in.nml  input_ice.nml
 
 ## Running the Model
@@ -254,24 +254,24 @@ If you have set up the modules system to use the `/g/data3/hh5/public/modules` f
 
 From the control directory, type
 
-    $ payu setup
+    payu setup
 
 This will prepare a the model run based on the configuration of the experiment.
 It will setup `work` and `archive` directories and link to them from within the
 configuration directory.
 You don't have to do that, as the run command also sets it up, but it helps to check for errors.
 
-    $ payu sweep
+    payu sweep
 
 This command removes the `work` directory again, but leaves the `archive`.
 
 Finally,
 
-    $ payu run
+    payu run
 
 will submit a single run to the queue.
 It will start from the beginning (as indicated by the `start` section in the `config.yaml`) if it has not run before.
 
 To automatically submit several runs (and to take advantage of the `runspersub` directive), you use the `-n` option:
 
-    $ payu run -n 7
+    payu run -n 7
