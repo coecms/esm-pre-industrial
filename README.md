@@ -275,3 +275,7 @@ It will start from the beginning (as indicated by the `start` section in the `co
 To automatically submit several runs (and to take advantage of the `runspersub` directive), you use the `-n` option:
 
     payu run -n 7
+
+## Finding the Output
+
+The output is automatically copied to the `archive/outputXXX` directories.
