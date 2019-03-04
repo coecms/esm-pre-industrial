@@ -2,6 +2,7 @@
 
 ## Quickstart Guide
 
+
 Get payu:
 
     module use /g/data3/hh5/public/modules
@@ -22,6 +23,9 @@ Check the output:
 
     ls archive/
 
+**Note:**
+We have noticed that some modules interfere with the git commands, for example `matlab/R2018a`.
+If you are running into issues during the installation, it might be a good idea to `module purge` first before starting again.
 
 ## Understanding **payu**
 
