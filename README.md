@@ -23,6 +23,10 @@ Check the output:
 
     ls archive/
 
+The default configuration is a 1 year per model run. To run the model for, say, 25 years:
+
+    payu run -n 25
+
 **Note:**
 We have noticed that some modules interfere with the git commands, for example `matlab/R2018a`.
 If you are running into issues during the installation, it might be a good idea to `module purge` first before starting again.
