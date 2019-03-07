@@ -195,7 +195,12 @@ The **name** is more than a useful reminder of what the model is.
        restart: true
        mem: 4GB
 
-Ask Aidan
+Collation refers joining together of ocean diagnostics that are output at model runtime
+in separate, tiled, files. In a process using minimal resources the output files are 
+joined back together. The restart files are typically also tiled in the same way. Here
+the `restart: true` option means the restart files from the **previous** run are also
+collated. This saves space and cuts down the number of files which makes more efficient
+use of storage and better for archiving in the future.
 
     restart: /short/public/access-esm/payu/restart/pre-industrial
 
