@@ -83,8 +83,9 @@ The ESM 1.5 subversion of ACCESS specifically contains these models:
 | Component  | Model      | Version |
 | ---------- | ---------- | ------- |
 | Atmosphere | UM-HG3     | 7.3     |
-| Ocean      | MOM        | 4       |
+| Ocean      | MOM        | 5       |
 | Sea Ice    | CICE       | 4.1     |
+| Land       | CABLE      | 2.2.4   |
 | Coupler    | OASIS-MCT  | 3.5     |
 
 Pre-compiled executables for these models are available on raijin at
