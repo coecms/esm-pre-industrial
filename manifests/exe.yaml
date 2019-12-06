@@ -1,18 +1,18 @@
 format: yamanifest
 version: 1.0
 ---
-work/atmosphere/um_hg3.exe-20190129_15:
-  fullpath: /short/public/access-esm/payu/bin/csiro/um_hg3.exe-20190129_15
+work/atmosphere/um_hg3.exe:
+  fullpath: /scratch/p66/hxw599/access-esm/build_environment/build/um/um_hg3.exe
   hashes:
-    binhash: 3b5f5da00dc2ba0f31c27c8b5a18cd70
-    md5: 07c06a3e938e8664b4aa22fcd8719d76
-work/ice/cice4.1_access-mct-12p-20180108:
-  fullpath: /short/public/access-esm/payu/bin/csiro/cice4.1_access-mct-12p-20180108
+    binhash: b7e2b21b20e1e115c303ab887989cc81
+    md5: fe7a29a4a892d67af0015c24f7dfe48c
+work/ice/cice-12p:
+  fullpath: /scratch/p66/hxw599/access-esm/build_environment/build/cice/cice-12p
   hashes:
-    binhash: efa25d8d4904681fcdff932dabee6ede
-    md5: d39da06b1b07e35f41192d4a5998c7bf
-work/ocean/fms_ACCESS-CM.dec18:
-  fullpath: /short/public/access-esm/payu/bin/csiro/fms_ACCESS-CM.dec18
+    binhash: 6149791d950d3ac29d08f42c37b520d8
+    md5: ea56d8419c59afe03f47fd77cc7b30ca
+work/ocean/mom5x:
+  fullpath: /scratch/p66/hxw599/access-esm/build_environment/build/mom/mom5x
   hashes:
-    binhash: a3655f18fac1bfa5475210ad022c70ac
-    md5: 896120f51b4abedbffddc1545709bd56
+    binhash: c9905c0996aab37ee796f67324b2f129
+    md5: 33beab1f9ea72a83261dfc35d8569014
