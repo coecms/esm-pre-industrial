@@ -62,8 +62,6 @@ shortpath: /scratch/p66
 mpi:
     module: openmpi/4.0.1
 
-qsub_flags: 
-        - "-W umask=027"
-        - "-l storage=gdata/hh5+gdata/p66"
+qsub_flags: -W umask=027 -l storage=gdata/hh5+gdata/p66
     
 
