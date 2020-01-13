@@ -1,18 +1,3 @@
 format: yamanifest
 version: 1.0
----
-work/atmosphere/um_hg3.exe:
-  fullpath: /scratch/p66/hxw599/access-esm/build_environment/build/um/um_hg3.exe
-  hashes:
-    binhash: 51359b1168265280f2612124ea633e15
-    md5: e0f147245616e2164e39e6749bbd8aea
-work/ice/cice-12p:
-  fullpath: /scratch/p66/hxw599/access-esm/build_environment/build/cice/cice-12p
-  hashes:
-    binhash: 7e7f13a5cc0d03c89809553e052e4d8b
-    md5: eed1fd4167cd9f1a1d13addfa7c68169
-work/ocean/mom5x:
-  fullpath: /scratch/p66/hxw599/access-esm/build_environment/build/mom/mom5x
-  hashes:
-    binhash: dda8e2d74b9605604a058fbe3680c944
-    md5: 6183721bc125da5dd9a469d47f4412ca
+--- {}
