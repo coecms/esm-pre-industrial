@@ -1,3 +1,18 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/atmosphere/um_hg3.exe-20200110:
+  fullpath: /g/data/p66/pbd562/test/t47-hxw/jan20/4.0.2/trunk_ESM1.5/bin/um_hg3.exe-20200110
+  hashes:
+    binhash: bf22aba2449c748e518c32405aaa5ef9
+    md5: 0bc889da75fd75025210ada8164b230e
+work/ice/cice4.1_access-mct-12p-20200110:
+  fullpath: /g/data/p66/pbd562/test/t47-hxw/jan20/4.0.2/trunk_ESM1.5/bin/cice4.1_access-mct-12p-20200110
+  hashes:
+    binhash: a9415830283fa1a6f74bc91ddd7a7218
+    md5: 2d8befa0957c1196f8ba387f36b7c1ef
+work/ocean/fms_ACCESS-CM.x:
+  fullpath: /g/data/p66/pbd562/test/t47-hxw/jan20/4.0.2/trunk_ESM1.5/submodels/ACCESS-ESM1.5-MOM5/exec/access-cm2/ACCESS-CM/fms_ACCESS-CM.x
+  hashes:
+    binhash: 3fce92bf64fb2d8f32cd4fa9b0d66ba4
+    md5: 6b8ed1721ac0e055ca8801875bcbb581
