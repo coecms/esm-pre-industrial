@@ -53,7 +53,7 @@ calendar:
         months: 0
         days: 0
 
-runspersub: 7
+runspersub: 1
 
 stacksize: unlimited
 
