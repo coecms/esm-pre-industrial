@@ -1,5 +1,5 @@
 jobname: pre-industrial
-queue: normal
+queue: express
 walltime: 2:30:00
 
 # note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
@@ -10,7 +10,7 @@ submodels:
     - name: atmosphere
       model: um
       ncpus: 192
-      exe: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe-20200203
+      exe: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe-20200205
       input:
         - /scratch/p66/hxw599/access-esm/input/atmosphere
 
