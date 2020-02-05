@@ -10,7 +10,7 @@ submodels:
     - name: atmosphere
       model: um
       ncpus: 192
-      exe: /g/data/p66/pbd562/test/t47-hxw/jan20/4.0.2/trunk_ESM1.5/bin/um_hg3.exe-20200110
+      exe: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe-20200203
       input:
         - /scratch/p66/hxw599/access-esm/input/atmosphere
 
