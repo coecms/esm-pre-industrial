@@ -4,15 +4,10 @@ version: 1.0
 work/atmosphere/um_hg3.exe:
   fullpath: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe
   hashes:
-    binhash: a593d8a0059ffe8d74e7ca820ce50d5f
-    md5: 1eba0a8230f2f54c5226714910bda9a5
-work/ice/cice4.1_access-mct-12p-20200206:
-  fullpath: /scratch/p66/hxw599/access-esm/build_v02/bin/cice4.1_access-mct-12p-20200206
-  hashes:
-    binhash: 8ea66e1980ec2556a20f98a9b24c9489
-    md5: e8a3d55ac190b88fff13555100dcb0d5
+    binhash: 6aa3238e00a9a223f852ae748f9e148b
+    md5: f6756ad0c018f758adaad8219d794a9c
 work/ocean/mom5xx:
   fullpath: /scratch/p66/hxw599/access-esm/build_v02/bin/mom5xx
   hashes:
-    binhash: b70d47866fd2ee2b0369c51ef25e02e3
-    md5: 8258c4e491794170a9d7ba17ba5e5f6f
+    binhash: 4a51e2915181d23a84396f606baeb6e7
+    md5: 2dfef7a651655b1c71a859946a651101
