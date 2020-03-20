@@ -1,3 +1,4 @@
+ANCIL_ATMOS = '/projects/ocean/hadgem3/ancil/atmos'
 vars = {
 'AINITIAL': '',
 'ASTART': '/scratch/p66/hxw599/work/PI-test8/ATM_RUNDIR/um_out/PI-test8.astart', 
@@ -38,14 +39,14 @@ vars = {
 'VERT_LEV': 'INPUT/vertlevs_G3',
 
 # Ancillary files
-'ARCLBIOG': 'INPUT/biogenic_351sm.N96L38',
-'BIOMASS': 'INPUT/Bio_1850_ESM1.anc',
-'CHEMOXID': 'INPUT/sulpc_oxidants_N96_L38',
-'DMSCONC': 'INPUT/DMS_conc.N96',
-'NDEPFIL': 'INPUT/Ndep_1850_ESM1.anc',
-'OCFFEMIS': 'INPUT/OCFF_1850_ESM1.anc',
-'OZONE': 'INPUT/ozone_1850_ESM1.anc',
-'SOOTEMIS': 'INPUT/BC_hi_1850_ESM1.anc',
-'SULPEMIS': 'INPUT/scycl_1850_ESM1_v4.anc',
-'VEGINIT': 'INPUT/cable_vegfunc_N96.anc',
+'ARCLBIOG': f'{ANCIL_ATMOS}/biogenic_351sm.N96L38',
+'BIOMASS': '/g/data1a/p66/txz599/data/ancil/CMIP6/Bio_1850_ESM1.anc',
+'CHEMOXID': '/projects/access/data/ancil/HadGEM3_cal365/sulpc_oxidants_N96_L38',
+'DMSCONC': '/projects/access/data/ancil/HadGEM3_cal365//DMS_conc.N96',
+'NDEPFIL': '/g/data1a/p66/txz599/data/ancil/CMIP6/Ndep_1850_ESM1.anc',
+'OCFFEMIS': '/g/data1a/p66/txz599/data/ancil/CMIP6/OCFF_1850_ESM1.anc',
+'OZONE': '/g/data1a/p66/txz599/data/ancil/CMIP6/ozone_1850_ESM1.anc',
+'SOOTEMIS': '/g/data1a/p66/txz599/data/ancil/CMIP6/BC_hi_1850_ESM1.anc',
+'SULPEMIS': '/g/data1a/p66/txz599/data/ancil/CMIP6/scycl_1850_ESM1_v4.anc',
+'VEGINIT': '/projects/access/data/ancil/access_v2/cable_vegfunc_N96.anc',
 }
