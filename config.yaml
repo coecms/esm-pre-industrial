@@ -10,14 +10,16 @@ submodels:
     - name: atmosphere
       model: um
       ncpus: 192
-      exe: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe
+      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/um7.3x
+      #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe
       input:
         - /scratch/p66/hxw599/access-esm/input/atmosphere
 
     - name: ocean
       model: mom
       ncpus: 84
-      exe: /scratch/p66/hxw599/access-esm/build_v02/bin/mom5xx
+      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/mom5xx
+      #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/mom5xx
       input:
         - /scratch/p66/hxw599/access-esm/input/ocean/common
         - /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial
@@ -25,7 +27,8 @@ submodels:
     - name: ice
       model: cice
       ncpus: 12
-      exe: /scratch/p66/hxw599/access-esm/build_v02/bin/cice4.1_access-mct-12p-20200218
+      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/cicexx
+      #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/cice4.1_access-mct-12p-20200218
       input:
         - /scratch/p66/hxw599/access-esm/input/ice
 
