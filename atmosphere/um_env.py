@@ -1,6 +1,6 @@
 vars = {
 'AINITIAL': '',
-'ASTART': 'restart_dump.astart', 
+'ASTART': '/scratch/p66/hxw599/work/PI-test8/ATM_RUNDIR/um_out/PI-test8.astart', 
 'AUSCOM_CPL': 'true',
 'DATAW': '{work_path}',
 'FASTRUN': 'true',

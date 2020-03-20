@@ -1,6 +1,6 @@
 jobname: pre-industrial
 queue: express
-walltime: 2:30:00
+walltime: 0:30:00
 
 # note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
 laboratory: /scratch/p66/hxw599/access-esm
