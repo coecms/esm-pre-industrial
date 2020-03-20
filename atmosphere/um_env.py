@@ -1,4 +1,3 @@
-ANCIL_ATMOS = '/projects/ocean/hadgem3/ancil/atmos'
 vars = {
 'AINITIAL': '',
 'ASTART': '/scratch/p66/hxw599/work/PI-test8/ATM_RUNDIR/um_out/PI-test8.astart', 
@@ -39,7 +38,7 @@ vars = {
 'VERT_LEV': 'INPUT/vertlevs_G3',
 
 # Ancillary files
-'ARCLBIOG': f'{ANCIL_ATMOS}/biogenic_351sm.N96L38',
+'ARCLBIOG': '/projects/access/data/ancil/HadGEM3_cal365//biogenic_351sm.N96L38',
 'BIOMASS': '/g/data1a/p66/txz599/data/ancil/CMIP6/Bio_1850_ESM1.anc',
 'CHEMOXID': '/projects/access/data/ancil/HadGEM3_cal365/sulpc_oxidants_N96_L38',
 'DMSCONC': '/projects/access/data/ancil/HadGEM3_cal365//DMS_conc.N96',
