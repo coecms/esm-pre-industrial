@@ -39,13 +39,13 @@ vars = {
 
 # Ancillary files
 'ARCLBIOG': '/projects/access/data/ancil/HadGEM3_cal365//biogenic_351sm.N96L38',
-'BIOMASS': '/g/data1a/p66/txz599/data/ancil/CMIP6/Bio_1850_ESM1.anc',
+'BIOMASS': '/g/data/p66/txz599/data/ancil/CMIP6/Bio_1850_ESM1.anc',
 'CHEMOXID': '/projects/access/data/ancil/HadGEM3_cal365/sulpc_oxidants_N96_L38',
 'DMSCONC': '/projects/access/data/ancil/HadGEM3_cal365//DMS_conc.N96',
-'NDEPFIL': '/g/data1a/p66/txz599/data/ancil/CMIP6/Ndep_1850_ESM1.anc',
-'OCFFEMIS': '/g/data1a/p66/txz599/data/ancil/CMIP6/OCFF_1850_ESM1.anc',
-'OZONE': '/g/data1a/p66/txz599/data/ancil/CMIP6/ozone_1850_ESM1.anc',
-'SOOTEMIS': '/g/data1a/p66/txz599/data/ancil/CMIP6/BC_hi_1850_ESM1.anc',
-'SULPEMIS': '/g/data1a/p66/txz599/data/ancil/CMIP6/scycl_1850_ESM1_v4.anc',
+'NDEPFIL': '/g/data/p66/txz599/data/ancil/CMIP6/Ndep_1850_ESM1.anc',
+'OCFFEMIS': '/g/data/p66/txz599/data/ancil/CMIP6/OCFF_1850_ESM1.anc',
+'OZONE': '/g/data/p66/txz599/data/ancil/CMIP6/ozone_1850_ESM1.anc',
+'SOOTEMIS': '/g/data/p66/txz599/data/ancil/CMIP6/BC_hi_1850_ESM1.anc',
+'SULPEMIS': '/g/data/p66/txz599/data/ancil/CMIP6/scycl_1850_ESM1_v4.anc',
 'VEGINIT': '/projects/access/data/ancil/access_v2/cable_vegfunc_N96.anc',
 }
