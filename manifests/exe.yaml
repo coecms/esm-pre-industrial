@@ -1,18 +1,18 @@
 format: yamanifest
 version: 1.0
 ---
-work/atmosphere/um_hg3.exe:
-  fullpath: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe
+work/atmosphere/um7.3x:
+  fullpath: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/um7.3x
   hashes:
-    binhash: 6aa3238e00a9a223f852ae748f9e148b
-    md5: f6756ad0c018f758adaad8219d794a9c
-work/ice/cice4.1_access-mct-12p-20200218:
-  fullpath: /scratch/p66/hxw599/access-esm/build_v02/bin/cice4.1_access-mct-12p-20200218
+    binhash: dde44982e0b8678a22071995f567e2b8
+    md5: b940be586b14738d766a345fda25cc4c
+work/ice/cicexx:
+  fullpath: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/cicexx
   hashes:
-    binhash: 19edfb8f5542c54d32971f194d51ab3e
-    md5: 6f1946c127622f377c93636ce64fc596
+    binhash: b285553f80b2f3bdd0f2a3a5fe40748f
+    md5: 2d8befa0957c1196f8ba387f36b7c1ef
 work/ocean/mom5xx:
-  fullpath: /scratch/p66/hxw599/access-esm/build_v02/bin/mom5xx
+  fullpath: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/mom5xx
   hashes:
-    binhash: 4a51e2915181d23a84396f606baeb6e7
-    md5: 2dfef7a651655b1c71a859946a651101
+    binhash: dee7d31d98a84f93e0ba4ad1c0532313
+    md5: 9b3592016605846dfda306a81ed9579c
