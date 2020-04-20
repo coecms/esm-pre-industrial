@@ -13,7 +13,7 @@ submodels:
       exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/um7.3x
       #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe
       input:
-        - /scratch/p66/hxw599/access-esm/input/atmosphere
+        - /scratch/p66/hxw599/access-esm/input/atmosphere-2
 
     - name: ocean
       model: mom

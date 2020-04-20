@@ -4,7 +4,12 @@ version: 1.0
 work/atmosphere/restart_dump.astart:
   fullpath: /scratch/p66/hxw599/access-esm/raijin/restart/atmosphere/restart_dump.astart
   hashes:
-    binhash: fc5e8af7c1481b059d7be696aca1944d
+    binhash: f9f9416fc41c24933585e1aabd3075c0
+    md5: f31560220e51d999f9dae5820d73cca8
+work/atmosphere/restart_dump.astart.bak:
+  fullpath: /scratch/p66/hxw599/access-esm/raijin/restart/atmosphere/restart_dump.astart.bak
+  hashes:
+    binhash: c4594b760d89efafa256e3ab32915858
     md5: a592362f9f7f13cd71ddc10fd6c09628
 work/coupler/a2i.nc:
   copy: true
