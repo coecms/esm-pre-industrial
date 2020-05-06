@@ -43,7 +43,7 @@ collate:
    restart: true
    mem: 4GB
 
-restart: /scratch/p66/hxw599/access-esm/raijin/restart
+restart: /scratch/p66/hxw599/access-esm/esm-gadi/restart
 
 calendar:
     start:
