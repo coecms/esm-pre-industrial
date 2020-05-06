@@ -33,8 +33,8 @@ work/ice/RESTART/cice_in.nml:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/cice_in.nml
   hashes:
-    binhash: 13f6cade310aff99936e635d465efd68
-    md5: 1576287c82da88ffc4752430100f848e
+    binhash: 2850709ed8ee6e713d35a7c1ad93ab9c
+    md5: 130fcbd33dc05e6a21773df0a75be0ea
 work/ice/RESTART/ice.restart_file:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/ice.restart_file
@@ -45,20 +45,20 @@ work/ice/RESTART/iced.01010101:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/iced.01010101
   hashes:
-    binhash: b4912e0af7aba0bb21dd565c7a1e2616
-    md5: 9d1c203156e0c6d73ea9ed909c6d174e
+    binhash: 5b0bbc7b9d6b797b1fcd69cc8747416e
+    md5: d773cba33e28e1a836658c0709c64830
 work/ice/RESTART/input_ice.nml:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/input_ice.nml
   hashes:
-    binhash: 0885424faae28bfa49d92b287d69647c
-    md5: e2d6d0541795dd3eeae54cda28ecba96
+    binhash: 845aef590edc9adb1ef8a3a3f643fd96
+    md5: b8e850ed7fa208c373768b0b69f0e633
 work/ice/RESTART/mice.nc:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/mice.nc
   hashes:
-    binhash: 46377c4ec59a8adb3b90a621931e8deb
-    md5: bf9362bb0414815555808b5b893de2f9
+    binhash: 36ff76dd695fc76a3ba01e3c8dc2b745
+    md5: fe41722db154e886fb3e4486873554d7
 work/ocean/INPUT/csiro_bgc.res.nc:
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ocean/csiro_bgc.res.nc
   hashes:
