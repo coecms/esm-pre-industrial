@@ -33,8 +33,8 @@ work/ice/RESTART/cice_in.nml:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/cice_in.nml
   hashes:
-    binhash: 2850709ed8ee6e713d35a7c1ad93ab9c
-    md5: 130fcbd33dc05e6a21773df0a75be0ea
+    binhash: b7923c25d09f894483f48e863717e1fa
+    md5: 1576287c82da88ffc4752430100f848e
 work/ice/RESTART/ice.restart_file:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/ice.restart_file

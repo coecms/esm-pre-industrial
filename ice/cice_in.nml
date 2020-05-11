@@ -3,7 +3,7 @@
   , year_init      = 0001
   , istep0         = 0
   , dt             = 3600
-  , npt            = 8760
+  , npt            = 24
   , ndyn_dt        = 1
   , runtype        = 'initial'
   , ice_ic         = 'default'
