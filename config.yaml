@@ -1,5 +1,5 @@
 jobname: pre-industrial
-queue: express
+queue: normal
 walltime: 0:10:00
 
 # note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
