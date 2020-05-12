@@ -21,8 +21,8 @@ submodels:
       exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/mom5xx
       #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/mom5xx
       input:
-        - /scratch/p66/hxw599/access-esm/input/ocean/common
-        - /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial
+        - /scratch/p66/hxw599/access-esm/input/ocean-2/common
+        - /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial
 
     - name: ice
       model: cice
