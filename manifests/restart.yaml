@@ -51,8 +51,8 @@ work/ice/RESTART/input_ice.nml:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/input_ice.nml
   hashes:
-    binhash: 5cd46823db30c04fc56fc6e0481b32bd
-    md5: d1489c98453f12d5f27b7649fe7a28c7
+    binhash: 673ad50cb86baaae1442913d42373e2e
+    md5: e2d6d0541795dd3eeae54cda28ecba96
 work/ice/RESTART/mice.nc:
   copy: true
   fullpath: /scratch/p66/hxw599/access-esm/esm-gadi/restart/ice/mice.nc
