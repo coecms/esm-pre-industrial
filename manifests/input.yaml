@@ -343,77 +343,77 @@ work/ice/INPUT/monthly_sstsss.nc:
     binhash: 0baa2c43dd5475ffb96a989dc65c2d8b
     md5: 323d4c605f83f4d7d3126da70153c2ed
 work/ocean/INPUT/basin_mask.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/common/basin_mask.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/common/basin_mask.nc
   hashes:
-    binhash: bf2f8ec7bef9519d932c2d6c89584ec4
+    binhash: d6c78b710f735f3f24e42a5c4864fa82
     md5: 20fd8740f24ca95c7c086343077e9c0d
 work/ocean/INPUT/bgc_param.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/bgc_param.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/bgc_param.nc
   hashes:
-    binhash: bb11e7c8ff1a1a5d088753810781c19b
+    binhash: bce0454e287763190dac7dce18e7ef0f
     md5: 7162c91ab9399c7a225fcb03593843ee
 work/ocean/INPUT/cfc_auscom.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/cfc_auscom.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/cfc_auscom.nc
   hashes:
-    binhash: c248350ad75eaf8661696f06135e1586
+    binhash: 2f108b56a489e6b591b399890d51dd91
     md5: 38660c8a5de3e3b63d2ae7ba5020d515
 work/ocean/INPUT/co2_obs.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/co2_obs.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/co2_obs.nc
   hashes:
-    binhash: f1ba233b65c2e07fc9c18e37d2b40d47
+    binhash: 1d8b611a5ca71a89e8453bc2cffcffb6
     md5: bfc3011737ab384d770b937b269e50fc
 work/ocean/INPUT/dust.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/dust.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/dust.nc
   hashes:
-    binhash: 2f5ac9acc7b9efd73308300095dd742a
+    binhash: 89bdd9dc43fe0afb6549b26a472172e6
     md5: bfbbea8ac46a932d0ec8631afbfc2ae2
 work/ocean/INPUT/geothermal_heating.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/common/geothermal_heating.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/common/geothermal_heating.nc
   hashes:
-    binhash: 13e615e1c075c01c89bc62a06d278380
+    binhash: b6354f0ed7e91484fa9aec78289683e8
     md5: 381cb231d8d059576adca0c2bea9c030
 work/ocean/INPUT/grid_spec.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/common/grid_spec.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/common/grid_spec.nc
   hashes:
-    binhash: 3b3e024831822b365184d3487da05658
+    binhash: b2116e2d0de5ed151f2a22e3de7db0c0
     md5: b9adc1e552201aa3abc6efb72786ec93
 work/ocean/INPUT/ocmip2_abiotic_c14_atm_hist_om3_bc-1-9999.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/ocmip2_abiotic_c14_atm_hist_om3_bc-1-9999.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/ocmip2_abiotic_c14_atm_hist_om3_bc-1-9999.nc
   hashes:
-    binhash: 7c29cac91e54d136a9a6cfa6e93cc496
+    binhash: 709ab379c74d531d5d06b8930c7ab777
     md5: e91a04235ab63ef060d0c6e350ed9581
 work/ocean/INPUT/ocmip2_fice_monthly_om1p5_bc.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/ocmip2_fice_monthly_om1p5_bc.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/ocmip2_fice_monthly_om1p5_bc.nc
   hashes:
-    binhash: 282e1978e43952fd78f66fc5a24c8fef
+    binhash: f9ab7a84bfe27d6149cf5ca99f245a01
     md5: c0ed75eef44962dbe6fc9f61dbd228a9
 work/ocean/INPUT/ocmip2_press_monthly_om1p5_bc.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/ocmip2_press_monthly_om1p5_bc.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/ocmip2_press_monthly_om1p5_bc.nc
   hashes:
-    binhash: 3f4eaea4aed67cfce87ecda33db07a8a
+    binhash: 35e709e8070cebc90d215a822f5fd3fd
     md5: 2e71cbb78c052e06e3df20f862928da2
 work/ocean/INPUT/ocmip2_siple_co2_atm_am2_bc-1-9999.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/ocmip2_siple_co2_atm_am2_bc-1-9999.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/ocmip2_siple_co2_atm_am2_bc-1-9999.nc
   hashes:
-    binhash: c783a1d35114acda02eba7196f1c1c14
+    binhash: 1bdb2e768bd943a86f4415cb0d467761
     md5: bf1db4228eeacb676da968073b8c5848
 work/ocean/INPUT/ocmip2_xkw_monthly_om1p5_bc.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial/ocmip2_xkw_monthly_om1p5_bc.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial/ocmip2_xkw_monthly_om1p5_bc.nc
   hashes:
-    binhash: a6d950648e742a194f31181cea9da6fc
+    binhash: 31b2d10cbc3fcbc2afaaf489d863d43a
     md5: 348a035bed83e280bb0a1de0066947fc
 work/ocean/INPUT/roughness_amp.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/common/roughness_amp.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/common/roughness_amp.nc
   hashes:
-    binhash: b06d7b444421114ef7653b260ecf3ef3
+    binhash: 2447602814f1ee1a810723516ec7863d
     md5: 185dadeb53da2de75b47c53fd7085f89
 work/ocean/INPUT/ssw_atten_depth.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/common/ssw_atten_depth.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/common/ssw_atten_depth.nc
   hashes:
-    binhash: 43d669d5fd06ec282fd709758a0f9e06
+    binhash: d5ae3d0f0ae18568280a5aac7717e6a0
     md5: 3e88b51db135788aa4348d58cbeabfad
 work/ocean/INPUT/tideamp.nc:
-  fullpath: /scratch/p66/hxw599/access-esm/input/ocean/common/tideamp.nc
+  fullpath: /scratch/p66/hxw599/access-esm/input/ocean-2/common/tideamp.nc
   hashes:
-    binhash: 5fd243411e149261ab0a42020003db82
+    binhash: 9b30ea69b213210ccf5b4260a053a257
     md5: b2840af757d9b7b40207f33f1fc84c5c
