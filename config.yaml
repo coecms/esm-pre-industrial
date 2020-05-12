@@ -68,4 +68,4 @@ mpi:
 qsub_flags: -W umask=027 -l storage=gdata/hh5+gdata/p66
     
 userscripts:
-    setup: change_jobnum.py
+    setup: change_jobnum.sh
