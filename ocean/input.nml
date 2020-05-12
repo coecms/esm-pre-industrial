@@ -197,8 +197,7 @@
 /
 
  &ocean_model_nml
-      layout = 12, 7
-      io_layout = 3, 7
+      layout = 12,7
       time_tendency='twolevel'
       vertical_coordinate='zstar'
       dt_ocean = 3600
@@ -488,7 +487,7 @@
 
  &ocean_tracer_diag_nml
       tracer_conserve_days=1.0
-      diag_step=120
+      diag_step=1440
       do_bitwise_exact_sum=.false.
 /
 

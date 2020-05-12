@@ -1,6 +1,6 @@
 jobname: pre-industrial
 queue: express
-walltime: 0:30:00
+walltime: 0:10:00
 
 # note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
 laboratory: /scratch/p66/hxw599/access-esm
@@ -13,7 +13,7 @@ submodels:
       exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/um7.3x
       #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe
       input:
-        - /scratch/p66/hxw599/access-esm/input/atmosphere
+        - /scratch/p66/hxw599/access-esm/input/atmosphere-2
 
     - name: ocean
       model: mom
@@ -21,8 +21,8 @@ submodels:
       exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/mom5xx
       #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/mom5xx
       input:
-        - /scratch/p66/hxw599/access-esm/input/ocean/common
-        - /scratch/p66/hxw599/access-esm/input/ocean/pre-industrial
+        - /scratch/p66/hxw599/access-esm/input/ocean-2/common
+        - /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial
 
     - name: ice
       model: cice
@@ -43,7 +43,7 @@ collate:
    restart: true
    mem: 4GB
 
-restart: /scratch/p66/hxw599/access-esm/raijin/restart
+restart: /scratch/p66/hxw599/access-esm/esm-gadi/restart
 
 calendar:
     start:
@@ -67,4 +67,5 @@ mpi:
 
 qsub_flags: -W umask=027 -l storage=gdata/hh5+gdata/p66
     
-
+#userscripts:
+#    setup: change_jobnum.py

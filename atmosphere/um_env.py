@@ -6,7 +6,7 @@ vars = {
 'FASTRUN': 'true',
 'IDEALISE': '',
 'PAREXE': 'parexe',
-'PRINT_STATUS': 'PrStatus_Min',
+'PRINT_STATUS': 'PrStatus_Diag',
 'RPSEED': '',
 'RUNID': 'PI-01',
 'TYPE': 'NRUN',
@@ -16,6 +16,7 @@ vars = {
 'UM_NPES': '192',
 'UM_SECTOR_SIZE': '2048',
 'UM_STDOUT_FILE': 'atm.fort6.pe',
+'VN' : '7.3',
 
 # Config input paths
 'UNIT01': '',
