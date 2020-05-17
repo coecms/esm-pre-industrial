@@ -2,17 +2,17 @@ format: yamanifest
 version: 1.0
 ---
 work/atmosphere/um7.3x:
-  fullpath: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/um7.3x
+  fullpath: /scratch/p66/hxw599/packed_up/bin/um7.3x
   hashes:
-    binhash: d32504cfcb7b457cfd42efd1b72eb2ea
+    binhash: 9b54df5d74034161e59cd2f87dcd2d2e
     md5: b940be586b14738d766a345fda25cc4c
 work/ice/cicexx:
-  fullpath: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/cicexx
+  fullpath: /scratch/p66/hxw599/packed_up/bin/cicexx
   hashes:
-    binhash: b0783634c5681a2f95838fdd17c8dfb1
+    binhash: ab51860ace8bb14f5d02e4fa22c49546
     md5: 2d8befa0957c1196f8ba387f36b7c1ef
 work/ocean/mom5xx:
-  fullpath: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/mom5xx
+  fullpath: /scratch/p66/hxw599/packed_up/bin/mom5xx
   hashes:
-    binhash: 3fc2f111d77a4414f4f1abd03f1a5eaa
+    binhash: b20637fb25c5c6a290ce490bcbdd99e5
     md5: 9b3592016605846dfda306a81ed9579c

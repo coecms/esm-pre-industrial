@@ -1,6 +1,6 @@
 jobname: pre-industrial
-queue: express
-walltime: 0:10:00
+queue: normal
+walltime: 3:10:00
 
 # note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
 laboratory: /scratch/p66/hxw599/access-esm
@@ -10,37 +10,37 @@ submodels:
     - name: atmosphere
       model: um
       ncpus: 192
-      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/um7.3x
+      exe: /scratch/p66/hxw599/packed_up/bin/um7.3x
       input:
-        - /scratch/p66/hxw599/access-esm/input/atmosphere-2
+        - /scratch/p66/hxw599/packed_up/input/atmosphere
 
     - name: ocean
       model: mom
       ncpus: 84
-      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/mom5xx
+      exe: /scratch/p66/hxw599/packed_up/bin/mom5xx
       input:
-        - /scratch/p66/hxw599/access-esm/input/ocean-2/common
-        - /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial
+        - /scratch/p66/hxw599/packed_up/input/ocean/common
+        - /scratch/p66/hxw599/packed_up/input/ocean/pre-industrial
 
     - name: ice
       model: cice
       ncpus: 12
-      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/cicexx
+      exe: /scratch/p66/hxw599/packed_up/bin/cicexx
       input:
-        - /scratch/p66/hxw599/access-esm/input/ice
+        - /scratch/p66/hxw599/packed_up/input/ice
 
     - name: coupler
       model: oasis
       ncpus: 0
       input:
-        - /scratch/p66/hxw599/access-esm/input/coupler
+        - /scratch/p66/hxw599/packed_up/input/coupler
 
 collate:
-   exe: /scratch/p66/hxw599/access-esm/raijin/mppnccombine
+   exe: /scratch/p66/hxw599/packed_up/bin/mppnccombine
    restart: true
    mem: 4GB
 
-restart: /scratch/p66/hxw599/access-esm/esm-gadi/restart
+restart: /scratch/p66/hxw599/packed_up/restart
 
 calendar:
     start:
