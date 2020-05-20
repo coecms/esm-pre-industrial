@@ -1,6 +1,6 @@
 jobname: pre-industrial
-queue: express
-walltime: 0:10:00
+queue: normal
+walltime: 3:10:00
 
 # note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
 laboratory: /scratch/p66/hxw599/access-esm
@@ -10,40 +10,37 @@ submodels:
     - name: atmosphere
       model: um
       ncpus: 192
-      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/um7.3x
-      #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/um_hg3.exe
+      exe: /g/data/access/payu/access-esm/bin/coe/um7.3x
       input:
-        - /scratch/p66/hxw599/access-esm/input/atmosphere-2
+        - /g/data/access/payu/access-esm/input/pre-industrial/atmosphere
 
     - name: ocean
       model: mom
       ncpus: 84
-      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/mom5xx
-      #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/mom5xx
+      exe: /g/data/access/payu/access-esm/bin/coe/mom5xx
       input:
-        - /scratch/p66/hxw599/access-esm/input/ocean-2/common
-        - /scratch/p66/hxw599/access-esm/input/ocean-2/pre-industrial
+        - /g/data/access/payu/access-esm/input/pre-industrial/ocean/common
+        - /g/data/access/payu/access-esm/input/pre-industrial/ocean/pre-industrial
 
     - name: ice
       model: cice
       ncpus: 12
-      exe: /scratch/p66/hxw599/access-esm/scripted_version/exp/PI-test8/Running.dir/cicexx
-      #exe: /scratch/p66/hxw599/access-esm/build_v02/bin/cice4.1_access-mct-12p-20200218
+      exe: /g/data/access/payu/access-esm/bin/coe/cicexx
       input:
-        - /scratch/p66/hxw599/access-esm/input/ice
+        - /g/data/access/payu/access-esm/input/pre-industrial/ice
 
     - name: coupler
       model: oasis
       ncpus: 0
       input:
-        - /scratch/p66/hxw599/access-esm/input/coupler
+        - /g/data/access/payu/access-esm/input/pre-industrial/coupler
 
 collate:
-   exe: /scratch/p66/hxw599/access-esm/raijin/mppnccombine
+   exe: /g/data/access/payu/access-esm/bin/mppnccombine
    restart: true
    mem: 4GB
 
-restart: /scratch/p66/hxw599/access-esm/esm-gadi/restart
+restart: /g/data/access/payu/access-esm/restart/pre-industrial
 
 calendar:
     start:
@@ -65,7 +62,4 @@ shortpath: /scratch/p66
 mpi:
     module: openmpi/4.0.2
 
-qsub_flags: -W umask=027 -l storage=gdata/hh5+gdata/p66
-    
-#userscripts:
-#    setup: change_jobnum.py
+qsub_flags: -W umask=027 -l storage=gdata/hh5+gdata/p66+gdata/access
