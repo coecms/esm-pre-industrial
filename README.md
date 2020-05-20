@@ -8,7 +8,7 @@
 Get payu:
 
     module use /g/data3/hh5/public/modules
-    module load git conda/analysis3-unstable
+    module load conda/analysis3-unstable
 
 Create a directory in which to keep the model configurations:
 
