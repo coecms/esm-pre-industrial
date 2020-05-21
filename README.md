@@ -90,14 +90,14 @@ The ESM 1.5 subversion of ACCESS specifically contains these models:
 | Land       | CABLE      | 2.2.4   |
 | Coupler    | OASIS-MCT  | 3.5     |
 
-Pre-compiled executables for these models are available on raijin at
-`/short/public/access-esm/payu/bin/csiro/`.
+~~Pre-compiled executables for these models are available on raijin at
+`/short/public/access-esm/payu/bin/csiro/`.~~
 
 ## Setting up ACCESS-ESM with **payu**
 
 ### The pre-conditions
 
-On `raijin`, first make sure that you have access to our modules.
+On `gadi`, first make sure that you have access to our modules.
 This can most easily been done by adding the line
 
     module use /g/data3/hh5/public/modules
@@ -108,9 +108,6 @@ to your `~/.profile`, then logging back in. Then all you have to do is
 
 to load the **payu** module.
 Please check again after 7/2019 to see whether it has been made part of the stable conda module.
-We also recommend you load a more recent version of `git` with
-
-    module load git
 
 as **payu** will use git to keep track of all configuration changes automatically.
 
