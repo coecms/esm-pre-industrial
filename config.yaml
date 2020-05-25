@@ -57,7 +57,4 @@ runspersub: 1
 
 stacksize: unlimited
 
-mpi:
-    module: openmpi/4.0.2
-
-qsub_flags: -W umask=027 -l storage=gdata/hh5+gdata/p66+gdata/access
+qsub_flags: -W umask=027
