@@ -2,8 +2,8 @@ jobname: pre-industrial
 queue: normal
 walltime: 3:10:00
 
-# note: if laboratory is relative path, it is relative to /short/$PROJECT/$USER
-laboratory: /scratch/p66/hxw599/access-esm
+# note: if laboratory is relative path, it is relative to /scratch/$PROJECT/$USER
+laboratory: access-esm
 model: access
 
 submodels:
@@ -56,8 +56,6 @@ calendar:
 runspersub: 1
 
 stacksize: unlimited
-
-shortpath: /scratch/p66
 
 mpi:
     module: openmpi/4.0.2
