@@ -1,6 +1,7 @@
 jobname: pre-industrial
 queue: normal
 walltime: 3:10:00
+project: p66
 
 # note: if laboratory is relative path, it is relative to /scratch/$PROJECT/$USER
 laboratory: access-esm
@@ -16,7 +17,7 @@ submodels:
 
     - name: ocean
       model: mom
-      ncpus: 84
+      ncpus: 180
       exe: /g/data/access/payu/access-esm/bin/coe/mom5xx
       input:
         - /g/data/access/payu/access-esm/input/pre-industrial/ocean/common
