@@ -111,6 +111,11 @@ work/atmosphere/INPUT/ozone_1850_ESM1.anc:
   hashes:
     binhash: 839cf76c5a5784b294824cab29be9e54
     md5: a64a01e3b092085fca308524a75a1cee
+work/atmosphere/INPUT/pre-industrial.astart:
+  fullpath: /g/data/access/payu/access-esm/input/pre-industrial/start_dump/pre-industrial.astart
+  hashes:
+    binhash: 83e6b704229053bb2de34f106adc10c1
+    md5: f31560220e51d999f9dae5820d73cca8
 work/atmosphere/INPUT/qrclim.slt:
   fullpath: /g/data/access/payu/access-esm/input/pre-industrial/atmosphere/qrclim.slt
   hashes:
