@@ -37,7 +37,7 @@ submodels:
         - /g/data/access/payu/access-esm/input/pre-industrial/coupler
 
 collate:
-   exe: /g/data/access/payu/access-esm/bin/mppnccombine
+   exe: ~access/access-cm2/utils/mppnccombine_nc4
    restart: true
    mem: 4GB
 
