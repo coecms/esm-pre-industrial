@@ -17,6 +17,10 @@ Create a directory in which to keep the model configurations:
     git clone https://github.com/coecms/esm-pre-industrial
     cd esm-pre-industrial
 
+We strongly recommend to switch to a new branch for the running of the model:
+
+    git checkout -b runs
+
 Run the model:
 
     payu run
@@ -123,7 +127,17 @@ Then clone the most recent version of the ACCESS-ESM control directory:
     git clone https://github.com/coecms/esm-pre-industrial
     cd esm-pre-industrial
 
-(Note: Currently we only have the pre-industrial model set up, other versions will follow later.)
+Every time you run the model, payu will check whether anything has changed, including the configuration
+files, the ancillary files, and executables. If anything has changed, it will create a new
+commit in the git repository to keep track of the changes.
+
+This can quickly create a lot new commits with such helpful names 'Run 1', 'Run 2', and so forth.
+
+For this reason, it is strongly recommended that you switch to a branch specifically for you running the experiment.
+
+You can do this by running
+
+    git checkout -b runs
 
 ### Setting up the Master Configuration file.
 
